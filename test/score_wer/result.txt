@@ -1,0 +1,2125 @@
+
+
+
+                     SYSTEM SUMMARY PERCENTAGES by SPEAKER                      
+
+,----------------------------------------------------------------------------------------------------------------------.
+|exp/asr_train_asr_conformer7_wav2vec2_base_v2_raw_zh_char_sp/decode_asr_asr_model_valid.acc.ave/test/score_wer/hyp.trn|
+|----------------------------------------------------------------------------------------------------------------------|
+|    SPKR      |    # Snt       # Wrd    |    Corr          Sub          Del          Ins          Err        S.Err    |
+|--------------+-------------------------+-----------------------------------------------------------------------------|
+|    dummy     |     346            0    |       0*           0*           0*        5300*        5300*        99.7    |
+|======================================================================================================================|
+|    Sum/Avg   |     346            0    |     0.0          0.0          0.0          0.0          0.0         99.7    |
+|======================================================================================================================|
+|     Mean     |   346.0          0.0    |     0.0+         0.0+         0.0+         0.0+         0.0+        99.7    |
+|     S.D.     |     0.0          0.0    |     0.0+         0.0+         0.0+         0.0+         0.0+         0.0    |
+|    Median    |   346.0          0.0    |     0.0+         0.0+         0.0+         0.0+         0.0+        99.7    |
+`----------------------------------------------------------------------------------------------------------------------'
+
+* No Reference words for this/these speaker(s).  Word counts supplied
+  rather than percents.
+# No Reference words for this/these speaker(s).  NCE not computable.
++ Speaker(s) with no reference data is ignored
+
+
+
+                     SYSTEM SUMMARY PERCENTAGES by SPEAKER                      
+
+,----------------------------------------------------------------------------------------------------------------------.
+|exp/asr_train_asr_conformer7_wav2vec2_base_v2_raw_zh_char_sp/decode_asr_asr_model_valid.acc.ave/test/score_wer/hyp.trn|
+|----------------------------------------------------------------------------------------------------------------------|
+|    SPKR     |    # Snt       # Wrd    |    Corr         Sub          Del          Ins           Err         S.Err    |
+|-------------+-------------------------+------------------------------------------------------------------------------|
+|    dummy    |     346            0    |       0           0            0         5300          5300           345    |
+|======================================================================================================================|
+|    Sum      |     346            0    |       0           0            0         5300          5300           345    |
+|======================================================================================================================|
+|    Mean     |   346.0          0.0    |     0.0         0.0          0.0        5300.0        5300.0        345.0    |
+|    S.D.     |     0.0          0.0    |     0.0         0.0          0.0          0.0           0.0           0.0    |
+|   Median    |   346.0          0.0    |     0.0         0.0          0.0        5300.0        5300.0        345.0    |
+`----------------------------------------------------------------------------------------------------------------------'
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   exp/asr_train_asr_conformer7_wav2vec2_base_v2_raw_zh_char_sp/decode_asr_asr_model_valid.acc.ave/test/score_wer/hyp.trn
+
+Speakers: 
+    0:  dummy
+
+Speaker sentences   0:  dummy   #utts: 346
+id: (dummy-1002887)
+Scores: (#C #S #D #I) 0 0 0 27
+REF:  ** **** **** ***** **** **** ** *** **** * *** ** ** **** ** ** ** *** ** ** * ***** *** ******* **** **** * 
+HYP:  HE TIAN TONG TSHIA HONG TSUA PE KIN TANG I KAI SI BO TIAN AN AI KA HUA TE LI E TSHUT LAI TSHIONG PIAN TSIT E 
+Eval: I  I    I    I     I    I    I  I   I    I I   I  I  I    I  I  I  I   I  I  I I     I   I       I    I    I 
+
+id: (dummy-1010282)
+Scores: (#C #S #D #I) 0 0 0 13
+REF:  *** ** **** ** **** **** *** **** * *** ** **** *** 
+HYP:  LAI HI TSAN PI TSIT TSUN KIT TSHI E GUA HI HONG LEH 
+Eval: I   I  I    I  I    I    I   I    I I   I  I    I   
+
+id: (dummy-1016938)
+Scores: (#C #S #D #I) 0 0 0 29
+REF:  ** ** *** **** *** * *** **** **** *** ** **** ** ** *** ** **** **** *** **** *** ** ***** * *** *** *** *** **** 
+HYP:  IN UI IOK HIAU TAM E KIO LIAN KONG ONG BO TSAN NA SI ING UI TSIT THAU SIT SUAT KAN NA TSHIT E KUA KHI KHI LAI TIAN 
+Eval: I  I  I   I    I   I I   I    I    I   I  I    I  I  I   I  I    I    I   I    I   I  I     I I   I   I   I   I    
+
+id: (dummy-1041303)
+Scores: (#C #S #D #I) 0 0 0 14
+REF:  **** *** **** *** **** **** *** ** *** ** ****** *** *** ** 
+HYP:  TSIT KUA TIUA KAU KHUI KHOO PAH NI KIM NI TSIANN KHO BEH AU 
+Eval: I    I   I    I   I    I    I   I  I   I  I      I   I   I  
+
+id: (dummy-1051272)
+Scores: (#C #S #D #I) 0 0 0 7
+REF:  **** **** *** ** *** * *** 
+HYP:  GUAN LIAN TSI SI IAN A LAH 
+Eval: I    I    I   I  I   I I   
+
+id: (dummy-1063053)
+Scores: (#C #S #D #I) 0 0 0 9
+REF:  * *** *** ** *** ** ** ** *** 
+HYP:  I SUA TIA KI KIN MA HI ME SAI 
+Eval: I I   I   I  I   I  I  I  I   
+
+id: (dummy-1074219)
+Scores: (#C #S #D #I) 0 0 0 26
+REF:  *** **** ***** ** **** ** **** *** ** * *** *** **** *** ***** ****** ****** ** ***** ** **** **** * *** ** **** 
+HYP:  TSE TSIT KUANN SI HIAN PO LIAU TAI NG E TAI TSI PHOO HOO PHUAN TSIONG TSIONG UI TSING LU KIAN KIAM E SIN TE GIAH 
+Eval: I   I    I     I  I    I  I    I   I  I I   I   I    I   I     I      I      I  I     I  I    I    I I   I  I    
+
+id: (dummy-1078084)
+Scores: (#C #S #D #I) 0 0 0 21
+REF:  ** *** **** **** ** **** **** **** **** ****** **** *** *** *** ** * ** *** ** **** ** 
+HYP:  UA SIT THAI KONG LI KUAN KING KIAN TSIT TSIONG HUAN LAI BEH TAI SI U BE SIT PU HUAN LI 
+Eval: I  I   I    I    I  I    I    I    I    I      I    I   I   I   I  I I  I   I  I    I  
+
+id: (dummy-108341)
+Scores: (#C #S #D #I) 0 0 0 29
+REF:  *** *** **** *** *** * **** **** ** ** * ** ** *** **** *** **** ** ** ***** **** ***** ** *** ***** *** **** *** ** 
+HYP:  KAU TAN GUAN TSU BIN E TANG IONG KA LI E BU LI SIA KONG BUN KHAK SI SI TSUAN TIAN TSIOH PI KOH TSIAU HUA TSIT LAK PO 
+Eval: I   I   I    I   I   I I    I    I  I  I I  I  I   I    I   I    I  I  I     I    I     I  I   I     I   I    I   I  
+
+id: (dummy-1084141)
+Scores: (#C #S #D #I) 0 0 0 6
+REF:  ***** ** *** *** *** *** 
+HYP:  HENNH SI LAN BEH SUE SIN 
+Eval: I     I  I   I   I   I   
+
+id: (dummy-1102127)
+Scores: (#C #S #D #I) 0 0 0 45
+REF:  ***** **** ****** **** ***** ** * ** *** * **** *** **** **** **** * *** **** **** **** * ***** *** ** *** *** *** *** ***** ***** ** ** ** *** * ***** ****** **** * ***** **** **** **** ** * 
+HYP:  TSING LANG KHIANN THAN TSING LI A LI KOK A KONG GUA KING TANN KHAH U PAU TSUN TIOH TSIT E KHONG LAK KE SIN LAI LOO PAH TSHAU SIANN BO KO AH TSO E TSIAH TSHIAU PING A KIANN TSHI TSIT KUAN HI A 
+Eval: I     I    I      I    I     I  I I  I   I I    I   I    I    I    I I   I    I    I    I I     I   I  I   I   I   I   I     I     I  I  I  I   I I     I      I    I I     I    I    I    I  I 
+
+id: (dummy-1103901)
+Scores: (#C #S #D #I) 0 0 0 34
+REF:  ***** ***** * * **** * **** *** * **** **** *** * *** ***** * *** ***** **** **** * *** **** **** *** * **** *** **** ****** ** ***** *** *** 
+HYP:  HIONG HIONG U U TSIT E LANG KAI I KIOH JING SIN I LAK TSIUN A KIN HUANN TIOH TSIT E LIN TSIU TSIU LAI E TSAH POO LANG TSIANN TO SIANN KAH HUA 
+Eval: I     I     I I I    I I    I   I I    I    I   I I   I     I I   I     I    I    I I   I    I    I   I I    I   I    I      I  I     I   I   
+
+id: (dummy-1133215)
+Scores: (#C #S #D #I) 0 0 0 6
+REF:  **** ** * ** ** *** 
+HYP:  THAU KI A IU HO TAH 
+Eval: I    I  I I  I  I   
+
+id: (dummy-1137687)
+Scores: (#C #S #D #I) 0 0 0 47
+REF:  ** *** ****** **** ***** * **** ** ** ** *** ****** **** **** ** ** ** * **** **** *** *** **** *** *** * **** *** **** * ** **** ** **** **** ** ****** *** **** **** **** *** **** ** *** ** **** 
+HYP:  PO HEH PHUANN TSIN TSING U TSUI AH SI AP KHI TSHIAU TUEH TSIT TA SI SI E THEH LONG TAI KHO TIAU TSI TAN E TSAI TOH KIAN A SI TSAI KI KING KHIN EH TSIANN TSU LONG KIAN TIAU TSI TSAH KI TSI KI TING 
+Eval: I  I   I      I    I     I I    I  I  I  I   I      I    I    I  I  I  I I    I    I   I   I    I   I   I I    I   I    I I  I    I  I    I    I  I      I   I    I    I    I   I    I  I   I  I    
+
+id: (dummy-1138165)
+Scores: (#C #S #D #I) 0 0 0 10
+REF:  *** *** ** *** **** * ***** *** ** ***** 
+HYP:  PAU LEN TI TSO KIAU M TIANN KHI SI TSIAK 
+Eval: I   I   I  I   I    I I     I   I  I     
+
+id: (dummy-1139928)
+Scores: (#C #S #D #I) 0 0 0 22
+REF:  *** **** ** ***** ** ***** *** * ** **** **** ****** ** **** *** *** **** *** ** *** ** ** 
+HYP:  KAU BONG SI TSHIU NA SIONG SUI E SI TSUN BONG TSIONG IT TSHE KHO TSO TSIT HUE BO GUA BO LI 
+Eval: I   I    I  I     I  I     I   I I  I    I    I      I  I    I   I   I    I   I  I   I  I  
+
+id: (dummy-1141793)
+Scores: (#C #S #D #I) 0 0 0 17
+REF:  *** ** *** *** ***** ** *** **** ** ******* **** **** *** **** ** * ** 
+HYP:  HAI SI PAI PAH HIONG NI HOK TSAU LI TSHIUNG TSIU PIEH LAI KHAH SE I LE 
+Eval: I   I  I   I   I     I  I   I    I  I       I    I    I   I    I  I I  
+
+id: (dummy-1147622)
+Scores: (#C #S #D #I) 0 0 0 10
+REF:  ***** *** **** **** ** ** *** **** *** ***** 
+HYP:  TSING GUE TSHI KHAI SU LI BAH PHAH KAH TSUAH 
+Eval: I     I   I    I    I  I  I   I    I   I     
+
+id: (dummy-1157200)
+Scores: (#C #S #D #I) 0 0 0 42
+REF:  ** ***** ** *** **** **** *** **** * **** **** ** **** ***** * ** ** *** ***** **** ** ** *** **** * ***** * *** *** ** * *** *** **** * **** *** ***** **** ** **** * 
+HYP:  BI LIONG SI IUN BUNG KAUN PAU KONG E TSHI TSUN LI IONG TSIAN E GI SU KAU TSHIT TSIT TU AN NIA TSAU I THONG E ING TOO KU M KOH KOO TING I LANG HOO TSING TSAH HO NIAU N 
+Eval: I  I     I  I   I    I    I   I    I I    I    I  I    I     I I  I  I   I     I    I  I  I   I    I I     I I   I   I  I I   I   I    I I    I   I     I    I  I    I 
+
+id: (dummy-1165901)
+Scores: (#C #S #D #I) 0 0 0 10
+REF:  *** ***** **** ** *** *** **** **** ** *** 
+HYP:  BUA THANG KHUI KE HIU ONG BIAN TSHI HE KHE 
+Eval: I   I     I    I  I   I   I    I    I  I   
+
+id: (dummy-1166401)
+Scores: (#C #S #D #I) 0 0 0 19
+REF:  ** *** * *** * ** **** *** *** ** * ***** ** **** **** **** ** *** ** 
+HYP:  BO HUA E PAI U KI KIOH LUI KUI AH A THANG KE THUE TING TUAN IU LAI HO 
+Eval: I  I   I I   I I  I    I   I   I  I I     I  I    I    I    I  I   I  
+
+id: (dummy-1186026)
+Scores: (#C #S #D #I) 0 0 0 17
+REF:  ******* **** * ** ** **** * * **** **** *** *** ** ** *** ** **** 
+HYP:  TSHIANG BONG E PE TO TSIT U E KONG HUAT LAN TAI GI BE HAN NI KONG 
+Eval: I       I    I I  I  I    I I I    I    I   I   I  I  I   I  I    
+
+id: (dummy-1248787)
+Scores: (#C #S #D #I) 0 0 0 20
+REF:  **** ** **** * *** * ** *** *** *** ** ** ** **** ** *** *** *** *** ** 
+HYP:  SANG KE TSIT A PAU E SI LOO ONG SAN NG IN LI TSIO UE KAH ING KHI TSE UI 
+Eval: I    I  I    I I   I I  I   I   I   I  I  I  I    I  I   I   I   I   I  
+
+id: (dummy-1254878)
+Scores: (#C #S #D #I) 0 0 0 7
+REF:  ** *** **** *** *** ***** *** 
+HYP:  TA BOH TSEH GUN TIE TSIOH KUI 
+Eval: I  I   I    I   I   I     I   
+
+id: (dummy-1255078)
+Scores: (#C #S #D #I) 0 0 0 20
+REF:  *** ** **** ** * *** *** **** ** *** ** **** ***** *** **** ** ** **** **** ** 
+HYP:  PUO IN TIOH KU U TAU LUN THOO AN KUE AN KONG KHUAN SIM TSIT MA SI SIAN THUE UA 
+Eval: I   I  I    I  I I   I   I    I  I   I  I    I     I   I    I  I  I    I    I  
+
+id: (dummy-1265684)
+Scores: (#C #S #D #I) 0 0 0 14
+REF:  ** *** ** *** ** *** *** ***** *** ** ** **** ***** *** 
+HYP:  LI HIT TO KAH SU KAH MOO KUANN GUA SU BI TSAU TSHUT LAI 
+Eval: I  I   I  I   I  I   I   I     I   I  I  I    I     I   
+
+id: (dummy-1270021)
+Scores: (#C #S #D #I) 0 0 0 3
+REF:  * ***** * 
+HYP:  I KHANG A 
+Eval: I I     I 
+
+id: (dummy-1280675)
+Scores: (#C #S #D #I) 0 0 0 2
+REF:  ** *** 
+HYP:  MI KIA 
+Eval: I  I   
+
+id: (dummy-1287820)
+Scores: (#C #S #D #I) 0 0 0 34
+REF:  *** *** **** * *** **** ** *** **** **** *** **** *** *** ** ** **** **** **** *** *** ** ***** *** ***** *** ** **** ***** ***** ** *** ** **** 
+HYP:  LAN LOH TUAU E INN IANG SI IAN TSIT KHAI KIN KIUN LIH TAN KA KI SANN LIAP SING LEH TSI AU KHUAN PIN SIANG KHI IN TSIT KHUAN TSIAN OO LAN BI TSUI 
+Eval: I   I   I    I I   I    I  I   I    I    I   I    I   I   I  I  I    I    I    I   I   I  I     I   I     I   I  I    I     I     I  I   I  I    
+
+id: (dummy-1310003)
+Scores: (#C #S #D #I) 0 0 0 9
+REF:  ** **** *** ** ** **** **** **** * 
+HYP:  LI SING KAI SU LI TSAI KHEH TIOH A 
+Eval: I  I    I   I  I  I    I    I    I 
+
+id: (dummy-1313342)
+Scores: (#C #S #D #I) 0 0 0 7
+REF:  ** ** ***** **** *** ** ** 
+HYP:  NA NG KIENN KUAN HOO HO OO 
+Eval: I  I  I     I    I   I  I  
+
+id: (dummy-1321183)
+Scores: (#C #S #D #I) 0 0 0 29
+REF:  *** **** ** **** **** * ** *** *** ***** **** *** ** **** *** ** ** ** *** **** *** **** *** ** *** *** ***** *** *** 
+HYP:  LIN KIAM LO KONG KIAN U SI ING JIT TSIUN TSIU KUA SI TONG LAH OO TA LI KOO GIAU BAH KHAN MNG KI KIK SIK KHANG KUA LAH 
+Eval: I   I    I  I    I    I I  I   I   I     I    I   I  I    I   I  I  I  I   I    I   I    I   I  I   I   I     I   I   
+
+id: (dummy-1323038)
+Scores: (#C #S #D #I) 0 0 0 11
+REF:  **** *** ** *** *** **** **** * ***** **** ***** 
+HYP:  LONG IAU KE HAK TAK HUAH TIAH E PUANN HONG TSIUN 
+Eval: I    I   I  I   I   I    I    I I     I    I     
+
+id: (dummy-1326139)
+Scores: (#C #S #D #I) 0 0 0 19
+REF:  *** **** * **** **** **** *** **** ** ***** * **** ** **** *** **** ** *** *** 
+HYP:  SIT SINN I KONG KHUE HUAT LOO IONG MI TSIAH E SIAP HI LONG LAN LONG KI LAI TSO 
+Eval: I   I    I I    I    I    I   I    I  I     I I    I  I    I   I    I  I   I   
+
+id: (dummy-1342013)
+Scores: (#C #S #D #I) 0 0 0 21
+REF:  **** ** *** ******* *** *** **** * *** **** ** * *** **** ** **** *** *** *** *** **** 
+HYP:  KING LI GUA TSHUANN TAI HOO SING E HUN TIAN HO I TUI TING HO IONG KAH IOH TAI TIU TSIP 
+Eval: I    I  I   I       I   I   I    I I   I    I  I I   I    I  I    I   I   I   I   I    
+
+id: (dummy-1343585)
+Scores: (#C #S #D #I) 0 0 0 20
+REF:  *** ***** ** ** * *** **** ** ** **** * **** **** **** **** *** * ** ** *** 
+HYP:  GUA THANN KA KI E LAI TSIT KO KO LANG U TSAI TIAU KUAN PUAN LAH E IU MA TAI 
+Eval: I   I     I  I  I I   I    I  I  I    I I    I    I    I    I   I I  I  I   
+
+id: (dummy-1365647)
+Scores: (#C #S #D #I) 0 0 0 9
+REF:  * ** ** *** *** *** * *** *** 
+HYP:  I SI TI KIU GUA SIU E KHI GUA 
+Eval: I I  I  I   I   I   I I   I   
+
+id: (dummy-1368706)
+Scores: (#C #S #D #I) 0 0 0 7
+REF:  *** ** *** *** ** **** ** 
+HYP:  GUN NA KHI LAI TE TSAI AH 
+Eval: I   I  I   I   I  I    I  
+
+id: (dummy-1374449)
+Scores: (#C #S #D #I) 0 0 0 31
+REF:  *** ****** **** * ***** ** **** *** ***** *** ****** *** **** ***** *** ** **** ***** **** ** ** * ***** * ** ** **** ** ***** **** *** 
+HYP:  KAN THIONG PANG E TIONG TI THAI BEH TSIAH KAI TSHIAH SIN UANN THIAN HUN AH PANG TSHIT PHAN LE GU A TSHIT M KE KI KIAU KI TSIAN KIAN KIN 
+Eval: I   I      I    I I     I  I    I   I     I   I      I   I    I     I   I  I    I     I    I  I  I I     I I  I  I    I  I     I    I   
+
+id: (dummy-1399746)
+Scores: (#C #S #D #I) 0 0 0 7
+REF:  *** * *** **** **** * **** 
+HYP:  LIT E KAH KONG KIAH E MANN 
+Eval: I   I I   I    I    I I    
+
+id: (dummy-1401100)
+Scores: (#C #S #D #I) 0 0 0 26
+REF:  ** ** ***** ** ** *** ** *** ***** **** *** *** **** **** *** **** **** ***** *** **** ** **** * **** *** ***** 
+HYP:  IN UI SIONG TI BO TOK AI SUA TSING TIOH ANG HOO THOO HONG MUA KIAU TSIA TSHIA HAU KHAH HO TSIT E TSIN IAM TIONG 
+Eval: I  I  I     I  I  I   I  I   I     I    I   I   I    I    I   I    I    I     I   I    I  I    I I    I   I     
+
+id: (dummy-140328)
+Scores: (#C #S #D #I) 0 0 0 4
+REF:  * ** *** *** 
+HYP:  A AN NEH LAH 
+Eval: I I  I   I   
+
+id: (dummy-1407565)
+Scores: (#C #S #D #I) 0 0 0 19
+REF:  **** **** *** ** *** *** ** ** *** ** *** **** **** **** *** **** ** ** ** 
+HYP:  IONG BIUN LIE AI TAI HAN KI SU ANG IN TSU TSIU TANG BING TEH TONG BI KO SI 
+Eval: I    I    I   I  I   I   I  I  I   I  I   I    I    I    I   I    I  I  I  
+
+id: (dummy-1447007)
+Scores: (#C #S #D #I) 0 0 0 31
+REF:  *** **** * **** *** ***** ** **** ** *** *** *** **** ** *** *** ** **** ** **** * *** *** * **** ** ***** **** *** **** ** 
+HYP:  NUI TSIT E KHAK LOO KHUAN SU TONG GI SUN TAH PHE TONG KE TIK TUI SU TIAN SU KIAU E SIU LOK E TANG KE HIONG TSIT KUA KING GI 
+Eval: I   I    I I    I   I     I  I    I  I   I   I   I    I  I   I   I  I    I  I    I I   I   I I    I  I     I    I   I    I  
+
+id: (dummy-1447065)
+Scores: (#C #S #D #I) 0 0 0 1
+REF:  **** 
+HYP:  KIAH 
+Eval: I    
+
+id: (dummy-1450605)
+Scores: (#C #S #D #I) 0 0 0 18
+REF:  *** *** ** *** *** ** * ** *** *** * *** ** *** *** ****** ** ****** 
+HYP:  SIT TUI AI HUA BOO TO E IN KIU PAH E LUN SI KAU HAI TSIANN BO KHUANN 
+Eval: I   I   I  I   I   I  I I  I   I   I I   I  I   I   I      I  I      
+
+id: (dummy-1459653)
+Scores: (#C #S #D #I) 0 0 0 20
+REF:  *** ***** *** *** ** *** ** *** ** *** ***** * ** **** **** *** *** *** **** *** 
+HYP:  SIO KHUAT TUI KHU LU TIK KI SIT SI PUT TSING I LA TINN SIAH UAH SIU KAI KUAN LIK 
+Eval: I   I     I   I   I  I   I  I   I  I   I     I I  I    I    I   I   I   I    I   
+
+id: (dummy-1483424)
+Scores: (#C #S #D #I) 0 0 0 11
+REF:  ** **** **** *** **** **** ** ** * *** **** 
+HYP:  LI TIAU BONG LAI KUAI KUAI TO SI I KUA BIAN 
+Eval: I  I    I    I   I    I    I  I  I I   I    
+
+id: (dummy-1492582)
+Scores: (#C #S #D #I) 0 0 0 8
+REF:  *** ** *** ***** ***** **** *** *** 
+HYP:  GUA KU LAI TSIOH LIANG KHUI LAU KHI 
+Eval: I   I  I   I     I     I    I   I   
+
+id: (dummy-1495079)
+Scores: (#C #S #D #I) 0 0 0 8
+REF:  **** ** ** * ** **** *** *** 
+HYP:  TSIT LE UE A SI KHUE BUE HUE 
+Eval: I    I  I  I I  I    I   I   
+
+id: (dummy-149531)
+Scores: (#C #S #D #I) 0 0 0 11
+REF:  *** **** *** ** ** ***** *** *** *** *** * 
+HYP:  KAN TUAH KOH LI AU TSIAH LAU MAH LEH TSI U 
+Eval: I   I    I   I  I  I     I   I   I   I   I 
+
+id: (dummy-1510507)
+Scores: (#C #S #D #I) 0 0 0 11
+REF:  * *** **** *** **** **** *** ** *** ***** *** 
+HYP:  A SUI TANG MOO LANG KONG HOO LI THE TSING KAH 
+Eval: I I   I    I   I    I    I   I  I   I     I   
+
+id: (dummy-1518214)
+Scores: (#C #S #D #I) 0 0 0 6
+REF:  *** *** **** * **** ** 
+HYP:  GUA SIT PHAN E PHUE KI 
+Eval: I   I   I    I I    I  
+
+id: (dummy-1537882)
+Scores: (#C #S #D #I) 0 0 0 11
+REF:  ** * ** * *** *** **** ** ** ** *** 
+HYP:  AH I LI A HOO LUE TSIN BO BE UA LEH 
+Eval: I  I I  I I   I   I    I  I  I  I   
+
+id: (dummy-1545106)
+Scores: (#C #S #D #I) 0 0 0 30
+REF:  *** **** * ** *** **** *** ** *** * * ***** ****** *** ** **** ***** * ** *** *** ** *** * *** *** *** **** **** *** 
+HYP:  HAU TSIT E LI TSI TSIT HAN SO PUN E I KHUAN PHUANN LEH KA UONN SIANN E LI GUA NIA HO GUA E INN TSO TSO LIAU TSIN KAI 
+Eval: I   I    I I  I   I    I   I  I   I I I     I      I   I  I    I     I I  I   I   I  I   I I   I   I   I    I    I   
+
+id: (dummy-1550653)
+Scores: (#C #S #D #I) 0 0 0 22
+REF:  *** *** **** *** *** ****** * ***** *** *** ** ** **** **** *** **** ** ***** ** ** *** **** 
+HYP:  GUN LIN KUAN HOO KHI THIONG I KHUAI PUA TIN AN TO TSIT KING SAN TSAP LI THING BO AI LOO TIAM 
+Eval: I   I   I    I   I   I      I I     I   I   I  I  I    I    I   I    I  I     I  I  I   I    
+
+id: (dummy-1554957)
+Scores: (#C #S #D #I) 0 0 0 7
+REF:  ** *** ** *** *** **** ** 
+HYP:  MA MAH BO PEH PEH KIAK LI 
+Eval: I  I   I  I   I   I    I  
+
+id: (dummy-1556474)
+Scores: (#C #S #D #I) 0 0 0 16
+REF:  * * *** *** *** *** *** ** **** *** *** ** **** ** ** ** 
+HYP:  I I KHI LAH TIN KIA PAE HO THAU BEH GUA KU TSOH SO UE HO 
+Eval: I I I   I   I   I   I   I  I    I   I   I  I    I  I  I  
+
+id: (dummy-1560966)
+Scores: (#C #S #D #I) 0 0 0 6
+REF:  *** ** *** ***** *** ** 
+HYP:  ANG KI BAN TSIAH HUT BA 
+Eval: I   I  I   I     I   I  
+
+id: (dummy-1569070)
+Scores: (#C #S #D #I) 0 0 0 4
+REF:  *** *** **** *** 
+HYP:  LAI LAI KONG LEH 
+Eval: I   I   I    I   
+
+id: (dummy-1579350)
+Scores: (#C #S #D #I) 0 0 0 7
+REF:  *** ** ****** *** * **** ** 
+HYP:  GUA MA TSIANN GUA E KING BO 
+Eval: I   I  I      I   I I    I  
+
+id: (dummy-1636768)
+Scores: (#C #S #D #I) 0 0 0 36
+REF:  * *** ** **** **** *** * ** ***** ***** *** *** **** *** * ** ** * *** **** ***** *** *** **** ** *** *** **** ***** *** ****** *** **** *** ** *** 
+HYP:  I KAH HE TSAI LIAN INN A NA TSIAH TSIAH LOH KHI THAN TSI A KO NA E LAU KONG HUANN GUA TSI TSUT SI KAU HUE BONG TSIAH LUE TSIANN BIN KHAK NIN IN NEH 
+Eval: I I   I  I    I    I   I I  I     I     I   I   I    I   I I  I  I I   I    I     I   I   I    I  I   I   I    I     I   I      I   I    I   I  I   
+
+id: (dummy-1656382)
+Scores: (#C #S #D #I) 0 0 0 24
+REF:  * * ***** *** *** *** **** ***** *** ***** *** **** *** *** ** ***** **** *** *** ** **** * *** *** 
+HYP:  I E TSIAU KAU TAU TAU TSAI PHANN KHO TSHUE KAN TSHI TUA KUN IN KHUAN PIAN KUN PUN KO KHUN E HUE SIA 
+Eval: I I I     I   I   I   I    I     I   I     I   I    I   I   I  I     I    I   I   I  I    I I   I   
+
+id: (dummy-1660550)
+Scores: (#C #S #D #I) 0 0 0 9
+REF:  *** *** *** * ** ****** **** *** ****** 
+HYP:  KIN LEH KIT E AH KHUANN KUAN LOH THIANN 
+Eval: I   I   I   I I  I      I    I   I      
+
+id: (dummy-1670183)
+Scores: (#C #S #D #I) 0 0 0 19
+REF:  ** * **** *** ** **** *** **** **** * ***** **** **** ***** ** *** *** **** **** 
+HYP:  TE E GUOH SAP SI TSUN TIO TONG KHAI E THIAT TSIT LANG KIANN KA SIT PEH KHAM KHAN 
+Eval: I  I I    I   I  I    I   I    I    I I     I    I    I     I  I   I   I    I    
+
+id: (dummy-168722)
+Scores: (#C #S #D #I) 0 0 0 11
+REF:  *** **** *** ** *** * ***** ***** ** ****** **** 
+HYP:  GUA THAI LAI LI SOO I TSIAH TSIAH NI TSHONG TONG 
+Eval: I   I    I   I  I   I I     I     I  I      I    
+
+id: (dummy-1688137)
+Scores: (#C #S #D #I) 0 0 0 31
+REF:  ***** *** ** ** *** *** * *** ***** **** ***** * *** ** **** ** *** * * ***** * * ** ** ***** ** *** *** ** **** *** 
+HYP:  SIONG HUE IT PI SUA TUI E HAU TSING TSIT PUINN E TSI JI TONG PU BAN E I SIANN U U SI KO LIANG KA THU LAI HI TSIT PAN 
+Eval: I     I   I  I  I   I   I I   I     I    I     I I   I  I    I  I   I I I     I I I  I  I     I  I   I   I  I    I   
+
+id: (dummy-1688286)
+Scores: (#C #S #D #I) 0 0 0 11
+REF:  *** ** *** *** *** ** ** *** ***** *** **** 
+HYP:  LAI KO JIT TSU TSI AH SI TSE TSHAI KOO KING 
+Eval: I   I  I   I   I   I  I  I   I     I   I    
+
+id: (dummy-1724375)
+Scores: (#C #S #D #I) 0 0 0 5
+REF:  ** **** * ***** *** 
+HYP:  AI SIAN M SIANG LAU 
+Eval: I  I    I I     I   
+
+id: (dummy-1759354)
+Scores: (#C #S #D #I) 0 0 0 2
+REF:  *** ** 
+HYP:  POO PI 
+Eval: I   I  
+
+id: (dummy-1761942)
+Scores: (#C #S #D #I) 0 0 0 24
+REF:  ** **** ** ***** ** ** *** *** ** ***** ** *** ** *** *** **** ** *** *** * ***** ******* *** ***** 
+HYP:  GO PING IU PIANG BI TO BEH LAI AH TSIAN MA HUA LI THE GUA TIAU KE SIT KUA I KIANN TSHIANN ANG TSIAH 
+Eval: I  I    I  I     I  I  I   I   I  I     I  I   I  I   I   I    I  I   I   I I     I       I   I     
+
+id: (dummy-1768573)
+Scores: (#C #S #D #I) 0 0 0 19
+REF:  ** ** ** ** ***** **** **** *** ** * **** *** * *** *** *** *** * ****** 
+HYP:  IN TO SI BO TIANG PIAI SUAI KHI KA E TIAH KAH E KAH BEH LAU KAH M PHIANN 
+Eval: I  I  I  I  I     I    I    I   I  I I    I   I I   I   I   I   I I      
+
+id: (dummy-1784897)
+Scores: (#C #S #D #I) 0 0 0 0
+
+id: (dummy-1785317)
+Scores: (#C #S #D #I) 0 0 0 21
+REF:  ** ** ** * **** ** ** *** ***** *** ***** *** *** ****** *** *** * * *** * *** 
+HYP:  LI MU IO E KHAK KA UA PAU TSIAN TAI TSING KUI KHI TSIONG TSU SIN E A KHI A SIA 
+Eval: I  I  I  I I    I  I  I   I     I   I     I   I   I      I   I   I I I   I I   
+
+id: (dummy-181075)
+Scores: (#C #S #D #I) 0 0 0 20
+REF:  ** ** **** ** *** *** **** ** *** **** **** ***** ***** ***** **** * *** ** **** *** 
+HYP:  HU KI PUAT AH SIU KHO LING TI TIN HONG IONG TSHAN TSHAI TSUAT KHOO E LIO TO TSIN SUN 
+Eval: I  I  I    I  I   I   I    I  I   I    I    I     I     I     I    I I   I  I    I   
+
+id: (dummy-1815286)
+Scores: (#C #S #D #I) 0 0 0 5
+REF:  ** * **** *** **** 
+HYP:  KI I THIA PHO HONG 
+Eval: I  I I    I   I    
+
+id: (dummy-1849694)
+Scores: (#C #S #D #I) 0 0 0 20
+REF:  ****** *** * ** **** ***** **** *** **** ** *** *** ** *** ** ** *** **** *** ** 
+HYP:  KHUANN TSO E BU HING TSHOO TSHU KHA KIAN TI TAI UAN HE KAI SI TE SAN TSAP TSI KI 
+Eval: I      I   I I  I    I     I    I   I    I  I   I   I  I   I  I  I   I    I   I  
+
+id: (dummy-1854910)
+Scores: (#C #S #D #I) 0 0 0 3
+REF:  *** *** ** 
+HYP:  SIN LEH OH 
+Eval: I   I   I  
+
+id: (dummy-1860001)
+Scores: (#C #S #D #I) 0 0 0 14
+REF:  ***** **** *** **** **** **** *** **** *** ** *** *** * *** 
+HYP:  SIUNG KHUE SHI KONG THAN PHIN BEH TING TAH KI LEH KAI U IAM 
+Eval: I     I    I   I    I    I    I   I    I   I  I   I   I I   
+
+id: (dummy-1878770)
+Scores: (#C #S #D #I) 0 0 0 21
+REF:  ***** *** ** ** ****** ** ** ** *** **** *** ** **** **** *** * **** ** *** ** ** 
+HYP:  SIUNN BEH KA TI KHUANN BI AH TO LAI SING HIT BE TSIT TSOO HAH E TSIT PI HIU SA TI 
+Eval: I     I   I  I  I      I  I  I  I   I    I   I  I    I    I   I I    I  I   I  I  
+
+id: (dummy-1885374)
+Scores: (#C #S #D #I) 0 0 0 6
+REF:  **** **** **** **** *** **** 
+HYP:  TSIT KHUN KUAN LANG TAI KIOH 
+Eval: I    I    I    I    I   I    
+
+id: (dummy-1892409)
+Scores: (#C #S #D #I) 0 0 0 12
+REF:  ** *** ** ** ** ** * ** **** ** ***** ** 
+HYP:  AI KOH NI KO LI LI E GU KIAN MU TSHIT LE 
+Eval: I  I   I  I  I  I  I I  I    I  I     I  
+
+id: (dummy-1896007)
+Scores: (#C #S #D #I) 0 0 0 14
+REF:  * ** *** **** **** *** **** ** *** ** * ** **** *** 
+HYP:  A BU GUA TIAM TSIT SAN KHUE TI HAI KA E KE HONG SIM 
+Eval: I I  I   I    I    I   I    I  I   I  I I  I    I   
+
+id: (dummy-1900637)
+Scores: (#C #S #D #I) 0 0 0 31
+REF:  **** *** * **** * * ** *** *** **** **** ***** ** *** *** ** ** ** *** *** *** **** ** *** **** **** * *** ** ** * 
+HYP:  TSAI GIN A KHAI I A BE SIN KUE THAI KHIU HUANN LI TSE HAN BO UE TE HAN HOO SIU LANG IO TSI KHUN TSUA E KUI HI LO E 
+Eval: I    I   I I    I I I  I   I   I    I    I     I  I   I   I  I  I  I   I   I   I    I  I   I    I    I I   I  I  I 
+
+id: (dummy-1916860)
+Scores: (#C #S #D #I) 0 0 0 12
+REF:  **** *** **** *** *** ** **** *** *** *** **** ** 
+HYP:  THIN KHI TIOO PUA HAM HA TSIT KIA HOO LUA TSHA HO 
+Eval: I    I   I    I   I   I  I    I   I   I   I    I  
+
+id: (dummy-1917456)
+Scores: (#C #S #D #I) 0 0 0 9
+REF:  ** * ** ** *** *** * ** ****** 
+HYP:  IT M AN SU KUE BIN E BE TSIANN 
+Eval: I  I I  I  I   I   I I  I      
+
+id: (dummy-1917612)
+Scores: (#C #S #D #I) 0 0 0 23
+REF:  * *** *** **** ***** *** * **** *** ** ** **** **** ** *** * *** *** **** *** ***** **** **** 
+HYP:  I PAI KAT TIEH TSHAU LAI I SING TOK KE TI BONG LONG TO ING E BUN KAN KING HOO PHIAN LIAU LIAU 
+Eval: I I   I   I    I     I   I I    I   I  I  I    I    I  I   I I   I   I    I   I     I    I    
+
+id: (dummy-1925460)
+Scores: (#C #S #D #I) 0 0 0 5
+REF:  *** **** ** *** *** 
+HYP:  GUA KHAU BE PIN KHA 
+Eval: I   I    I  I   I   
+
+id: (dummy-1931568)
+Scores: (#C #S #D #I) 0 0 0 27
+REF:  *** *** ** ** ** ** * * ** **** * *** * * **** **** ***** ** * *** ** ** *** ** * *** * 
+HYP:  LIA TIU TI AH LI AU E I BE TUAN I LAN I U HUAN THAH THUAN HO E GUA KI UI TOH IN E LAI I 
+Eval: I   I   I  I  I  I  I I I  I    I I   I I I    I    I     I  I I   I  I  I   I  I I   I 
+
+id: (dummy-1939882)
+Scores: (#C #S #D #I) 0 0 0 1
+REF:  *** 
+HYP:  THE 
+Eval: I   
+
+id: (dummy-195121)
+Scores: (#C #S #D #I) 0 0 0 18
+REF:  *** *** *** *** *** * **** * ** *** **** ** ****** **** ** ** *** *** 
+HYP:  TIN JIT PUN SAT PUA A KHUI E HI BAN TSUN UI THIANN HANG KI KI TAH SUI 
+Eval: I   I   I   I   I   I I    I I  I   I    I  I      I    I  I  I   I   
+
+id: (dummy-1951220)
+Scores: (#C #S #D #I) 0 0 0 19
+REF:  *** *** ***** ** *** ** **** **** *** ** **** ** *** **** **** *** ** ** *** 
+HYP:  KHE TAN KHONG MA SIN TI LIAH KIAU JIT JI TSAT HE KIN HUAN PHUE THE LI HU LAK 
+Eval: I   I   I     I  I   I  I    I    I   I  I    I  I   I    I    I   I  I  I   
+
+id: (dummy-1959795)
+Scores: (#C #S #D #I) 0 0 0 11
+REF:  **** **** **** *** * ** *** **** ***** * ***** 
+HYP:  THIE LANG JIOH PAU E KE BUT LANG SIONG U KIANN 
+Eval: I    I    I    I   I I  I   I    I     I I     
+
+id: (dummy-1971396)
+Scores: (#C #S #D #I) 0 0 0 8
+REF:  **** **** *** * ** **** **** *** 
+HYP:  LBAU LING KAH I PI TING TIAT SOO 
+Eval: I    I    I   I I  I    I    I   
+
+id: (dummy-1991951)
+Scores: (#C #S #D #I) 0 0 0 22
+REF:  ** *** *** **** *** ** ** *** **** ** ** **** ** **** *** *** *** **** * ** * **** 
+HYP:  HI TOO IAN PUAN THE IN TI HOO TIAT SO TI HONG UI TSAN ING PAI HOO TIAN I SI U TSOO 
+Eval: I  I   I   I    I   I  I  I   I    I  I  I    I  I    I   I   I   I    I I  I I    
+
+id: (dummy-2015190)
+Scores: (#C #S #D #I) 0 0 0 10
+REF:  **** *** *** *** *** *** **** * ** **** 
+HYP:  KANG KOH LUI HAN LEH TSU PHAI E SU THUA 
+Eval: I    I   I   I   I   I   I    I I  I    
+
+id: (dummy-2017161)
+Scores: (#C #S #D #I) 0 0 0 12
+REF:  *** ** **** *** * **** **** ** *** ** ***** *** 
+HYP:  KAN NE PANG HOO A LING KONG LI KHE IN TSHIN KAH 
+Eval: I   I  I    I   I I    I    I  I   I  I     I   
+
+id: (dummy-2027947)
+Scores: (#C #S #D #I) 0 0 0 25
+REF:  ** **** * **** *** ** ** **** * * **** * **** **** * **** *** * **** ** ***** **** **** **** **** 
+HYP:  MU TSIT E LANG BUA SI TO PIAN E I TSIT E LANG LONG U KANN HIO E SING OO THIAM TIAM KHOH TINN SIAK 
+Eval: I  I    I I    I   I  I  I    I I I    I I    I    I I    I   I I    I  I     I    I    I    I    
+
+id: (dummy-2030691)
+Scores: (#C #S #D #I) 0 0 0 6
+REF:  *** *** *** **** ***** *** 
+HYP:  GUO LAI KHI TIAP HIANN IAN 
+Eval: I   I   I   I    I     I   
+
+id: (dummy-2048291)
+Scores: (#C #S #D #I) 0 0 0 24
+REF:  ** **** * * *** ***** *** ** ** ** **** * **** *** ** **** *** **** **** *** *** **** **** ** 
+HYP:  LI IONG I E HUA SIANN KAH KE MA LI GIAU E SUAN LUT KA KING ANG HANG KIOH HOK HAN PUAT TSIT LI 
+Eval: I  I    I I I   I     I   I  I  I  I    I I    I   I  I    I   I    I    I   I   I    I    I  
+
+id: (dummy-2048777)
+Scores: (#C #S #D #I) 0 0 0 8
+REF:  * * *** * ** **** * *** 
+HYP:  I E HAU E BU PIOH E LAH 
+Eval: I I I   I I  I    I I   
+
+id: (dummy-2049465)
+Scores: (#C #S #D #I) 0 0 0 12
+REF:  ** *** ***** **** ** * ***** *** *** ** *** *** 
+HYP:  NA TEN SIONG PHAN TO M TSINN GUA SUI SI TAU LOO 
+Eval: I  I   I     I    I  I I     I   I   I  I   I   
+
+id: (dummy-208170)
+Scores: (#C #S #D #I) 0 0 0 13
+REF:  ** ***** * **** ** ** **** ***** **** * **** ** ** 
+HYP:  LI TSHIU N LIAH KI AI TSUT TSUAN HONG E KONG KI AU 
+Eval: I  I     I I    I  I  I    I     I    I I    I  I  
+
+id: (dummy-2091474)
+Scores: (#C #S #D #I) 0 0 0 9
+REF:  *** ** **** ** ** **** * *** ** 
+HYP:  SOO MI TSIO IA AH KONG U HUE IO 
+Eval: I   I  I    I  I  I    I I   I  
+
+id: (dummy-2093656)
+Scores: (#C #S #D #I) 0 0 0 7
+REF:  * ***** ** *** **** *** *** 
+HYP:  I TSIAT BO PAN LANG KAU KUE 
+Eval: I I     I  I   I    I   I   
+
+id: (dummy-21107)
+Scores: (#C #S #D #I) 0 0 0 7
+REF:  *** **** * **** ** **** *** 
+HYP:  KIO SANN E TSAU SI PIAU TUT 
+Eval: I   I    I I    I  I    I   
+
+id: (dummy-2117707)
+Scores: (#C #S #D #I) 0 0 0 6
+REF:  ** ****** **** * *** *** 
+HYP:  BO KHUANN KHAI E KUE SIM 
+Eval: I  I      I    I I   I   
+
+id: (dummy-2120262)
+Scores: (#C #S #D #I) 0 0 0 7
+REF:  *** ** ** ***** **** *** ** 
+HYP:  LIO BI LI SIUNN KHEH KHI AH 
+Eval: I   I  I  I     I    I   I  
+
+id: (dummy-2138582)
+Scores: (#C #S #D #I) 0 0 0 3
+REF:  **** *** *** 
+HYP:  KHAI BUE LAH 
+Eval: I    I   I   
+
+id: (dummy-2143947)
+Scores: (#C #S #D #I) 0 0 0 12
+REF:  * *** *** **** * **** ***** *** *** *** **** *** 
+HYP:  O OOH LAN TSIT E PANG KHONG KAI KIN HAH KUAN LEH 
+Eval: I I   I   I    I I    I     I   I   I   I    I   
+
+id: (dummy-2147430)
+Scores: (#C #S #D #I) 0 0 0 25
+REF:  *** * ** ** *** *** *** * ** ** ** *** ***** *** ****** ** *** ** ***** *** * *** **** *** **** 
+HYP:  TIO E KE HU TSU HUN PAI U LI KE AH KAH KHIAU LUN KHUANN TA KOO AH TSHAI KIN A KOO LUAN LAI KHAU 
+Eval: I   I I  I  I   I   I   I I  I  I  I   I     I   I      I  I   I  I     I   I I   I    I   I    
+
+id: (dummy-2152281)
+Scores: (#C #S #D #I) 0 0 0 34
+REF:  ** ** * *** **** **** *** ***** **** * *** ** ***** **** * ***** *** * *** * ** ** **** ***** ** *** **** * **** * * *** * ** 
+HYP:  NA SI A TNA TIAH SIOK TUI TSHUT HIAN M KOH KE THANG PIAH E TSIAP TUI I GUA E SU LI THAU TSING MA KHO LING E TSAN E I GUA E SI 
+Eval: I  I  I I   I    I    I   I     I    I I   I  I     I    I I     I   I I   I I  I  I    I     I  I   I    I I    I I I   I I  
+
+id: (dummy-215260)
+Scores: (#C #S #D #I) 0 0 0 16
+REF:  * * * **** ** ***** **** * **** **** ***** ***** ** **** *** ** 
+HYP:  A I I KANG TO IUANN THIT E TSIT PUAN LIANG KHUAN TI PANG KUH AH 
+Eval: I I I I    I  I     I    I I    I    I     I     I  I    I   I  
+
+id: (dummy-2152904)
+Scores: (#C #S #D #I) 0 0 0 4
+REF:  **** **** *** *** 
+HYP:  TGUA TSIU SIN LAH 
+Eval: I    I    I   I   
+
+id: (dummy-215311)
+Scores: (#C #S #D #I) 0 0 0 5
+REF:  **** *** ***** *** **** 
+HYP:  KHIN LAI TSIAH TAI KONG 
+Eval: I    I   I     I   I    
+
+id: (dummy-2162264)
+Scores: (#C #S #D #I) 0 0 0 7
+REF:  ** **** **** *** **** *** ** 
+HYP:  TA TSIN PUAN THE THEH KHI LI 
+Eval: I  I    I    I   I    I   I  
+
+id: (dummy-2176501)
+Scores: (#C #S #D #I) 0 0 0 9
+REF:  * ** **** **** *** **** **** *** *** 
+HYP:  E AH TSIA LONG GUA KIAN TING KHI LAI 
+Eval: I I  I    I    I   I    I    I   I   
+
+id: (dummy-2180484)
+Scores: (#C #S #D #I) 0 0 0 16
+REF:  **** **** ** **** ** *** **** *** **** **** ** **** ** ** ***** ** 
+HYP:  THOO KHAH TU TSIU HO HUT PING SIU PIOH SENN SI IONG LI UA KIANN NA 
+Eval: I    I    I  I    I  I   I    I   I    I    I  I    I  I  I     I  
+
+id: (dummy-2192642)
+Scores: (#C #S #D #I) 0 0 0 9
+REF:  * **** * *** *** ** **** ** *** 
+HYP:  I TSIT E LAU TAU LI KANG BO KUN 
+Eval: I I    I I   I   I  I    I  I   
+
+id: (dummy-2194123)
+Scores: (#C #S #D #I) 0 0 0 14
+REF:  *** **** ***** ** **** *** *** *** *** ** * * ** ** 
+HYP:  IAU BANG TSING LI KUAT TIN KIT KOO PHE TE U I TU PO 
+Eval: I   I    I     I  I    I   I   I   I   I  I I I  I  
+
+id: (dummy-2198564)
+Scores: (#C #S #D #I) 0 0 0 10
+REF:  ** ** *** *** *** *** ** ** *** *** 
+HYP:  HO HO LIN PEH BEH KAP UI UI KHI LAI 
+Eval: I  I  I   I   I   I   I  I  I   I   
+
+id: (dummy-2204931)
+Scores: (#C #S #D #I) 0 0 0 24
+REF:  **** ** *** * **** *** *** **** *** ** **** * * *** *** * ** ** *** *** *** ** *** *** 
+HYP:  TSIT PA SIH I KUAN TSU BIN TSOK BIN TU LANG E I LAI KHA E KA IN KAI LIT KAU BU KHI KUE 
+Eval: I    I  I   I I    I   I   I    I   I  I    I I I   I   I I  I  I   I   I   I  I   I   
+
+id: (dummy-2211257)
+Scores: (#C #S #D #I) 0 0 0 20
+REF:  ** **** ** *** ** **** ** ***** * *** ** *** *** ** *** *** *** *** ***** *** 
+HYP:  KI THAH BE SAH GU TIOH BE TSIAH E ING EH BUN LAU BO KUA KHI LEH TOO SIANN KUA 
+Eval: I  I    I  I   I  I    I  I     I I   I  I   I   I  I   I   I   I   I     I   
+
+id: (dummy-2220032)
+Scores: (#C #S #D #I) 0 0 0 12
+REF:  **** **** **** **** ***** ** * **** *** *** **** * 
+HYP:  TSIT TSUN PUAT LANG THIAN NA E LIAH SIM PHI TSIO A 
+Eval: I    I    I    I    I     I  I I    I   I   I    I 
+
+id: (dummy-2229334)
+Scores: (#C #S #D #I) 0 0 0 27
+REF:  **** ** *** *** ** ** ** ** *** ***** *** *** ***** **** **** **** ** *** **** **** ** ** ****** *** *** * *** 
+HYP:  TSUT BO TSU SIK MA MA SI NA LAH SIUNN KEH MAH LIONG SIUN KUAN GUAN TI SIU KHAH LANG TE KA TSIANN TSE LAN I KUA 
+Eval: I    I  I   I   I  I  I  I  I   I     I   I   I     I    I    I    I  I   I    I    I  I  I      I   I   I I   
+
+id: (dummy-2245253)
+Scores: (#C #S #D #I) 0 0 0 15
+REF:  ***** *** *** *** ***** *** ****** ** **** *** *** ** ***** *** ** 
+HYP:  TSHIU LAI THE HIT TIUNN KUE TSUANN NA KHAH LAK SAI MA KHIUH TIK TI 
+Eval: I     I   I   I   I     I   I      I  I    I   I   I  I     I   I  
+
+id: (dummy-2248138)
+Scores: (#C #S #D #I) 0 0 0 30
+REF:  ** *** **** * **** **** *** **** ** **** **** **** *** ** *** **** ** ** ** ** **** ***** **** *** *** ** ** *** *** * 
+HYP:  AN LEH PING A TSAI TONG KAU HUAN SI TSIT LIAP TSIT KOK IN MNG TIAU BO KA IN SA LIAK TSIAH BUAN TSI LEH PU LA HAI HUN P 
+Eval: I  I   I    I I    I    I   I    I  I    I    I    I   I  I   I    I  I  I  I  I    I     I    I   I   I  I  I   I   I 
+
+id: (dummy-2249542)
+Scores: (#C #S #D #I) 0 0 0 7
+REF:  **** *** **** *** **** **** *** 
+HYP:  TSIT HAI THAU TSI KANG HUAN LAH 
+Eval: I    I   I    I   I    I    I   
+
+id: (dummy-2256874)
+Scores: (#C #S #D #I) 0 0 0 8
+REF:  * * **** *** * *** *** **** 
+HYP:  E I TSIT MUA E PUI ANG TSAU 
+Eval: I I I    I   I I   I   I    
+
+id: (dummy-2277595)
+Scores: (#C #S #D #I) 0 0 0 4
+REF:  **** *** *** *** 
+HYP:  KIAN BOH LAI LAI 
+Eval: I    I   I   I   
+
+id: (dummy-2287723)
+Scores: (#C #S #D #I) 0 0 0 36
+REF:  *** *** ** ******* ** ** *** ***** *** **** ** **** * ** ***** ** ** ****** ** ** **** ** **** **** *** ** ** **** * **** ** * * *** **** *** 
+HYP:  SIN LUN TE TSHIANN KE SE TUT TSIAH SOO KONG LU SING M SI TSHUT SI TO TSIANN TO LU SING SI HONG TANG IOK SO LU SING E TSIT KU E I HAM TSAP HUN 
+Eval: I   I   I  I       I  I  I   I     I   I    I  I    I I  I     I  I  I      I  I  I    I  I    I    I   I  I  I    I I    I  I I I   I    I   
+
+id: (dummy-230479)
+Scores: (#C #S #D #I) 0 0 0 61
+REF:  *** ** **** *** **** *** **** *** **** ***** *** ****** **** *** ** *** **** **** ****** *** ****** *** ***** * ***** ***** ** *** * *** ***** ** ***** *** *** ** *** ***** *** ***** *** ****** **** *** *** **** * ** ****** **** **** ** **** ** **** ** *** ****** **** ***** ** 
+HYP:  PIO IO TSAH UIN GUAH KAH TSIT PAH THAU TSING SAN TSHING TSIT PAH SU LOO KIAH TSUT TSHING SAH TSHING LOO TSING E TIONG TSONG SU TSO E SOO LIONG BE TSHUI LAI KAN BO KAH TSHAI PIU TSHUN BUE TSHONG THAI KHO HUE TSIT E HU TSHONG TSIT HANG HE HAIT HA HONG HE THO PIAPIO LONG TSHUT HE 
+Eval: I   I  I    I   I    I   I    I   I    I     I   I      I    I   I  I   I    I    I      I   I      I   I     I I     I     I  I   I I   I     I  I     I   I   I  I   I     I   I     I   I      I    I   I   I    I I  I      I    I    I  I    I  I    I  I   I      I    I     I  
+
+id: (dummy-2305059)
+Scores: (#C #S #D #I) 0 0 0 7
+REF:  ***** *** *** **** *** *** *** 
+HYP:  SIANN JIN TSU LONG TAP HIT PUN 
+Eval: I     I   I   I    I   I   I   
+
+id: (dummy-2313868)
+Scores: (#C #S #D #I) 0 0 0 4
+REF:  *** * *** *** 
+HYP:  TEH E LAI KAH 
+Eval: I   I I   I   
+
+id: (dummy-2316341)
+Scores: (#C #S #D #I) 0 0 0 22
+REF:  ***** *** *** * ** *** *** *** *** *** ***** * *** *** **** **** ** ** ** *** ***** *** 
+HYP:  TSIOH POH LAI E SI SIN LAI HAH HUN IAN TSIOK E TAK TAK SING KHUN NA TI HA LOO SIUNN KIT 
+Eval: I     I   I   I I  I   I   I   I   I   I     I I   I   I    I    I  I  I  I   I     I   
+
+id: (dummy-2320945)
+Scores: (#C #S #D #I) 0 0 0 29
+REF:  ** *** *** ** *** *** ** * *** **** **** *** ** **** * *** *** *** *** ***** ** **** ** ** *** **** *** **** ** 
+HYP:  SO LOO TAI KI HUN GUN LU E BUN KHIA KHAH SUI LI IONG I GUA SIU KAH SIN TSHUE TO TSIN KI SU KAH THUE TSI KHAH TO 
+Eval: I  I   I   I  I   I   I  I I   I    I    I   I  I    I I   I   I   I   I     I  I    I  I  I   I    I   I    I  
+
+id: (dummy-2324571)
+Scores: (#C #S #D #I) 0 0 0 18
+REF:  ** **** * *** **** *** * **** ***** *** *** *** * ***** ** * *** ** 
+HYP:  SI TSIT E SIM KHAI LAM E PUAN TSHAH TIN SAI TSI E TSHIN KI A LAI IN 
+Eval: I  I    I I   I    I   I I    I     I   I   I   I I     I  I I   I  
+
+id: (dummy-2327675)
+Scores: (#C #S #D #I) 0 0 0 18
+REF:  *** *** * *** *** **** ** *** * ** *** *** **** **** *** * *** **** 
+HYP:  IAU KOH U LAN GUI TIOH TO JIN E LI KIK GUA HONG SIAN BEH A SIK TSIN 
+Eval: I   I   I I   I   I    I  I   I I  I   I   I    I    I   I I   I    
+
+id: (dummy-2341730)
+Scores: (#C #S #D #I) 0 0 0 8
+REF:  ** ** *** **** ** *** *** **** 
+HYP:  EH MA HOO HUAN NI GOO HOO TIAN 
+Eval: I  I  I   I    I  I   I   I    
+
+id: (dummy-2354069)
+Scores: (#C #S #D #I) 0 0 0 19
+REF:  *** *** **** **** * **** *** **** ** ** ** *** **** *** * ** * ** **** 
+HYP:  TSE HOO TSAN JIAT E KING KAH KUAN TE KI KA TSO HIAN LAI U KU I KI HONG 
+Eval: I   I   I    I    I I    I   I    I  I  I  I   I    I   I I  I I  I    
+
+id: (dummy-2372444)
+Scores: (#C #S #D #I) 0 0 0 21
+REF:  * *** ** ** ****** *** ****** ***** **** *** *** ***** *** *** **** ** * *** **** ** * 
+HYP:  O PUA AI SI TSIANN PIN TSIONG KHONG KONG KHA KHU TSUAT TAI UAN TSIT UA U LAH THAU BO E 
+Eval: I I   I  I  I      I   I      I     I    I   I   I     I   I   I    I  I I   I    I  I 
+
+id: (dummy-238416)
+Scores: (#C #S #D #I) 0 0 0 15
+REF:  ** **** ****** * **** *** ** *** *** *** **** *** ***** **** **** 
+HYP:  TI HIAH KHUANN E LANG IAH SI SAM SAM GOO NGOO SIU TSHIN TSNG TSNG 
+Eval: I  I    I      I I    I   I  I   I   I   I    I   I     I    I    
+
+id: (dummy-2395703)
+Scores: (#C #S #D #I) 0 0 0 21
+REF:  *** **** * **** *** ** **** *** **** *** * * ***** ***** *** *** *** ***** *** ***** ** 
+HYP:  TSU TSIA E LANG KAI TE TSIT LEH PHOO KAN I I KHIAM SIUNN TSE PUA TOH KHUAN KHI TSIOH UA 
+Eval: I   I    I I    I   I  I    I   I    I   I I I     I     I   I   I   I     I   I     I  
+
+id: (dummy-2409470)
+Scores: (#C #S #D #I) 0 0 0 17
+REF:  *** ****** ** **** **** *** *** *** **** ***** *** ** ** ** ** **** *** 
+HYP:  BIA TSIONG SI KHAN KHUE TSO TOH POO PIAN TSIAH HUN AI SI NA PE TING HOO 
+Eval: I   I      I  I    I    I   I   I   I    I     I   I  I  I  I  I    I   
+
+id: (dummy-2410200)
+Scores: (#C #S #D #I) 0 0 0 30
+REF:  ** ** *** **** *** **** **** ***** *** **** * ** **** ** **** * ** **** ** * **** ** * ** *** *** *** ** *** ** 
+HYP:  GU AH PEH HUON LEH TIOK TSUI TSIAK KOO TSUI E IU TSOO PE KANG E TI TSIT SU A TSAU IN A KI TUI TUI LAI KU LAI TE 
+Eval: I  I  I   I    I   I    I    I     I   I    I I  I    I  I    I I  I    I  I I    I  I I  I   I   I   I  I   I  
+
+id: (dummy-2417651)
+Scores: (#C #S #D #I) 0 0 0 31
+REF:  *** *** ** *** *** *** * **** *** ** * ** ** ** * *** **** *** *** **** **** **** **** *** ** * **** **** ***** *** ** 
+HYP:  SIT KAN SI TSI BUN BOO E TSAI BOO IN A IN UI TI E KAN TSHO TUA PUN PHAH KANN TSIT TING KUE TI E SING TSIT TSIAH PUE LI 
+Eval: I   I   I  I   I   I   I I    I   I  I I  I  I  I I   I    I   I   I    I    I    I    I   I  I I    I    I     I   I  
+
+id: (dummy-2427112)
+Scores: (#C #S #D #I) 0 0 0 23
+REF:  **** **** ** *** ***** ** *** **** **** ***** * *** **** ** *** *** ***** **** *** *** **** **** *** 
+HYP:  KIAK KHOO LI TAI HUANN PU LEH TSUN LIOK KHONG A KHA TSHI TI TAI UAN KHONG KONG KIU SOO TSAI KING GIN 
+Eval: I    I    I  I   I     I  I   I    I    I     I I   I    I  I   I   I     I    I   I   I    I    I   
+
+id: (dummy-2434241)
+Scores: (#C #S #D #I) 0 0 0 4
+REF:  ** *** *** *** 
+HYP:  AN BEH SIN MAH 
+Eval: I  I   I   I   
+
+id: (dummy-2439934)
+Scores: (#C #S #D #I) 0 0 0 30
+REF:  * ** ** ** *** *** **** *** **** *** ** ***** **** *** *** *** *** **** *** *** **** ** * **** ** **** * **** *** *** 
+HYP:  I MA SI AN SAN MAI KIOH KIM GIAM KIM SI KHONG SING LOH BIT TIT KAI TIAT TIK KAI KONG PE I KIAM SI TSIT E SING BIN IAT 
+Eval: I I  I  I  I   I   I    I   I    I   I  I     I    I   I   I   I   I    I   I   I    I  I I    I  I    I I    I   I   
+
+id: (dummy-2445249)
+Scores: (#C #S #D #I) 0 0 0 17
+REF:  *** *** ** **** *** ** ** *** ** *** ** ** * *** ** ** ****** 
+HYP:  TAN NIO KI KIAH GUA LO TO KUA BE KHI AH TI M HAI KO SE KHIANN 
+Eval: I   I   I  I    I   I  I  I   I  I   I  I  I I   I  I  I      
+
+id: (dummy-2449815)
+Scores: (#C #S #D #I) 0 0 0 14
+REF:  *** *** *** **** *** ** ***** *** ** ** * ***** **** *** 
+HYP:  KIN TAK GOO TSAK KAI KI LIANG KIA JI MA U THIAN LANG HAI 
+Eval: I   I   I   I    I   I  I     I   I  I  I I     I    I   
+
+id: (dummy-2454274)
+Scores: (#C #S #D #I) 0 0 0 4
+REF:  *** *** **** ** 
+HYP:  HAN BEH TSIO BO 
+Eval: I   I   I    I  
+
+id: (dummy-245684)
+Scores: (#C #S #D #I) 0 0 0 22
+REF:  *** **** ***** **** **** ***** **** *** **** ****** *** ** **** ** ***** ***** **** **** ***** ** ** **** 
+HYP:  TAN KIAN TSHAT KIAH TIAN TSANN LANG SIT KHUE THIANN LAM KI KING SI TSHIU SIONG KHAN THUE TSHIT KI KU KHUT 
+Eval: I   I    I     I    I    I     I    I   I    I      I   I  I    I  I     I     I    I    I     I  I  I    
+
+id: (dummy-2467036)
+Scores: (#C #S #D #I) 0 0 0 2
+REF:  * *** 
+HYP:  A BEH 
+Eval: I I   
+
+id: (dummy-2473664)
+Scores: (#C #S #D #I) 0 0 0 10
+REF:  *** * * *** *** **** ** *** **** * 
+HYP:  SIT A A BEH POO GUAN SI TOH TSEH E 
+Eval: I   I I I   I   I    I  I   I    I 
+
+id: (dummy-2478709)
+Scores: (#C #S #D #I) 0 0 0 12
+REF:  ** ***** *** ** **** **** *** * ** **** *** *** 
+HYP:  TU TSIAH KOK HE TIAU TSIA LAU I HO SANG PUN NNG 
+Eval: I  I     I   I  I    I    I   I I  I    I   I   
+
+id: (dummy-2479604)
+Scores: (#C #S #D #I) 0 0 0 64
+REF:  **** ***** *** **** *** *** ***** ***** * ***** **** ** ** *** **** *** **** ** ** ***** *** ***** ** ***** *** **** ***** **** * **** *** **** *** *** *** ** *** *** *** ****** **** * **** ** *** **** ***** ** **** **** **** **** **** *** ***** ** *** ** *** *** ** **** ****** *** 
+HYP:  TSIN TSING GUI KANG GUA PAU TSING TSING E TSIAH TSIN PA MI BOO TSIU HOO TONG HO MA TSIAU HIN TSIAU IN TSUAN KHI TONG TSIAU PUAT E TSIN TSE KONG IAN LAI UAT KO BAT ING UAN TSHING THAI E KHAT KO LAI PANG TSING HI KONG LANG SING TSIT TSIT THA SIONG HA THA SI TSO THA LA LANG TSITHA SNG 
+Eval: I    I     I   I    I   I   I     I     I I     I    I  I  I   I    I   I    I  I  I     I   I     I  I     I   I    I     I    I I    I   I    I   I   I   I  I   I   I   I      I    I I    I  I   I    I     I  I    I    I    I    I    I   I     I  I   I  I   I   I  I    I      I   
+
+id: (dummy-2495769)
+Scores: (#C #S #D #I) 0 0 0 26
+REF:  ** *** **** *** ***** ***** **** ** ** ** ** *** *** ***** *** * * ** **** * ***** ** **** *** **** ** 
+HYP:  LI KAH SING UAH TIONG TSHIN KHAH UI TO UI BO KAU TSI PHANG TSO E I BU KANG E THANG KI TSIT LEH LANG SI 
+Eval: I  I   I    I   I     I     I    I  I  I  I  I   I   I     I   I I I  I    I I     I  I    I   I    I  
+
+id: (dummy-2500676)
+Scores: (#C #S #D #I) 0 0 0 25
+REF:  **** **** *** **** ** ***** **** ***** ****** *** ** ***** *** **** * *** **** ** *** ** ***** *** *** *** * 
+HYP:  TSIA PING KUI BONG BO SIANN TSIN TSING TSHIAN TSU LI TSHIA SIU KHAK E LAI TIAU NE HAI TU THANG LAH LUE HAU I 
+Eval: I    I    I   I    I  I     I    I     I      I   I  I     I   I    I I   I    I  I   I  I     I   I   I   I 
+
+id: (dummy-2505207)
+Scores: (#C #S #D #I) 0 0 0 19
+REF:  ** ** *** ** ** **** **** *** **** *** **** ** ** ** ** *** ** *** *** 
+HYP:  HO LI ANG NA SI KHUA SIOH HAU KHUA NNG KANG IO AN SI BO IAM NI TSA HOO 
+Eval: I  I  I   I  I  I    I    I   I    I   I    I  I  I  I  I   I  I   I   
+
+id: (dummy-2512558)
+Scores: (#C #S #D #I) 0 0 0 8
+REF:  * ***** **** *** **** ** **** **** 
+HYP:  I KIANN PUAN BIN SING TE SHUT SHUT 
+Eval: I I     I    I   I    I  I    I    
+
+id: (dummy-2518772)
+Scores: (#C #S #D #I) 0 0 0 9
+REF:  ** **** *** ***** **** *** *** ** *** 
+HYP:  NA KONG SUA KHING TSIP KIU TAI HO LEH 
+Eval: I  I    I   I     I    I   I   I  I   
+
+id: (dummy-2519229)
+Scores: (#C #S #D #I) 0 0 0 4
+REF:  *** **** * *** 
+HYP:  TAI KONG U KHI 
+Eval: I   I    I I   
+
+id: (dummy-2523674)
+Scores: (#C #S #D #I) 0 0 0 14
+REF:  ***** ** ** ** **** ****** *** ** **** ** *** ** ** *** 
+HYP:  TSHIO LI LI TO TSIT TSIANN IAU AU KHAI SI LAI UE TO SIA 
+Eval: I     I  I  I  I    I      I   I  I    I  I   I  I  I   
+
+id: (dummy-2528536)
+Scores: (#C #S #D #I) 0 0 0 10
+REF:  ***** *** *** *** *** *** ***** *** *** ***** 
+HYP:  HONNH LAI LEH LAI KAI SIO TSIAH KAI SIO TSIAH 
+Eval: I     I   I   I   I   I   I     I   I   I     
+
+id: (dummy-2544741)
+Scores: (#C #S #D #I) 0 0 0 17
+REF:  ** *** ***** * ***** *** ** ***** ***** *** *** *** * **** ** ***** ** 
+HYP:  PO SIT TSHAU A TSING LUI SI TSHAI PHANG KUI KAN LAU E TSIU HO TSING SA 
+Eval: I  I   I     I I     I   I  I     I     I   I   I   I I    I  I     I  
+
+id: (dummy-2548108)
+Scores: (#C #S #D #I) 0 0 0 20
+REF:  **** * ** ***** *** ** *** *** *** * *** **** *** * *** ** ** *** **** *** 
+HYP:  KHIT U HO TSUIT PAN NE ING LAI TUE I KHA KONG PAI E KIN TE UI SIU KANG IAN 
+Eval: I    I I  I     I   I  I   I   I   I I   I    I   I I   I  I  I   I    I   
+
+id: (dummy-2549538)
+Scores: (#C #S #D #I) 0 0 0 17
+REF:  **** *** * *** ** **** *** ** *** **** ** ** *** *** *** *** ** 
+HYP:  TANG HOO I HOO LI KOOH TAI SI SIT TIAN IU KE TSE PHE TOK SAM BU 
+Eval: I    I   I I   I  I    I   I  I   I    I  I  I   I   I   I   I  
+
+id: (dummy-2551058)
+Scores: (#C #S #D #I) 0 0 0 28
+REF:  * *** **** *** ** **** ******* *** ***** ** *** * ** *** *** *** **** * *** ** *** *** **** **** *** *** *** ** 
+HYP:  U GUA THIO KOO TO SHIN TSHIUNN KUI TSHUN SI GUE E JI KAK TIN GIU LIOK E LUN TI TAI HAK TSIT TIUN BEH SAT KOO LI 
+Eval: I I   I    I   I  I    I       I   I     I  I   I I  I   I   I   I    I I   I  I   I   I    I    I   I   I   I  
+
+id: (dummy-256973)
+Scores: (#C #S #D #I) 0 0 0 15
+REF:  *** *** *** ** ** ** ** **** * ***** **** ***** **** * **** 
+HYP:  SAN TNG HUE TI AU BO KO HIAN A SIOOH BIAH TSIAH PONG A HIAU 
+Eval: I   I   I   I  I  I  I  I    I I     I    I     I    I I    
+
+id: (dummy-2576956)
+Scores: (#C #S #D #I) 0 0 0 3
+REF:  ** ** *** 
+HYP:  LI KU LEH 
+Eval: I  I  I   
+
+id: (dummy-2585874)
+Scores: (#C #S #D #I) 0 0 0 6
+REF:  **** ** **** ** **** *** 
+HYP:  TKAI UA KHAU HO LONG KIU 
+Eval: I    I  I    I  I    I   
+
+id: (dummy-2596590)
+Scores: (#C #S #D #I) 0 0 0 6
+REF:  *** * * **** *** *** 
+HYP:  GUA A E SING KUA HAN 
+Eval: I   I I I    I   I   
+
+id: (dummy-2599427)
+Scores: (#C #S #D #I) 0 0 0 3
+REF:  * * ** 
+HYP:  M I AH 
+Eval: I I I  
+
+id: (dummy-2641975)
+Scores: (#C #S #D #I) 0 0 0 11
+REF:  *** * **** * * **** **** **** ***** *** *** 
+HYP:  GUA A HIAU I I SUAN LING KHIH PIANN TAI TSI 
+Eval: I   I I    I I I    I    I    I     I   I   
+
+id: (dummy-2685382)
+Scores: (#C #S #D #I) 0 0 0 26
+REF:  *** *** *** *** ***** **** **** ***** *** * ** *** **** ** *** *** *** **** ** **** ** **** **** *** *** ***** 
+HYP:  LIK GUA HUN SIT GIANG TSAI IONG KHIAN HUA E SU LUI TSAH TA BUN TUA LUI TONG SU MIAN SU HING IONG SNG TIN TIANG 
+Eval: I   I   I   I   I     I    I    I     I   I I  I   I    I  I   I   I   I    I  I    I  I    I    I   I   I     
+
+id: (dummy-2695227)
+Scores: (#C #S #D #I) 0 0 0 2
+REF:  * ** 
+HYP:  I HO 
+Eval: I I  
+
+id: (dummy-2707165)
+Scores: (#C #S #D #I) 0 0 0 12
+REF:  * **** ***** **** *** * *** *** * *** ** ***** 
+HYP:  I SING TSHIN KIAU KOH U TSI TAN E LOO AI KIANN 
+Eval: I I    I     I    I   I I   I   I I   I  I     
+
+id: (dummy-2712712)
+Scores: (#C #S #D #I) 0 0 0 11
+REF:  **** ** *** * ** *** ***** ** *** ** *** 
+HYP:  PHAI LI ANG U IN BOH TSHUI BO LOO LI MNG 
+Eval: I    I  I   I I  I   I     I  I   I  I   
+
+id: (dummy-2725107)
+Scores: (#C #S #D #I) 0 0 0 15
+REF:  ** **** **** ***** **** *** **** **** ** **** **** **** **** *** **** 
+HYP:  NU PUAH TSHE KUANN KUAN TIU HONG KONG TE HONG TIAU SUAT SING UAN HIAN 
+Eval: I  I    I    I     I    I   I    I    I  I    I    I    I    I   I    
+
+id: (dummy-2726623)
+Scores: (#C #S #D #I) 0 0 0 6
+REF:  *** ** *** **** *** * 
+HYP:  OOH LI SUI IANN BAI A 
+Eval: I   I  I   I    I   I 
+
+id: (dummy-2730555)
+Scores: (#C #S #D #I) 0 0 0 17
+REF:  *** **** * **** ** ** ** *** *** *** * **** * *** *** ** *** 
+HYP:  GUA TSIT A KIOH HI LE AU TSU PEH SIU A KINN A JIT LAI SE LAH 
+Eval: I   I    I I    I  I  I  I   I   I   I I    I I   I   I  I   
+
+id: (dummy-2743221)
+Scores: (#C #S #D #I) 0 0 0 7
+REF:  *** * *** *** *** *** *** 
+HYP:  SOO I GUA BEH PAN PHE PAK 
+Eval: I   I I   I   I   I   I   
+
+id: (dummy-2749542)
+Scores: (#C #S #D #I) 0 0 0 27
+REF:  ** **** ** ** **** *** *** *** ***** **** ** *** **** ***** ** **** *** **** * *** *** *** ***** ** ** ** ** 
+HYP:  AU BIAU NA BO LONG TIT HUE KAI PHIAH TIAU EH KHO TIAN LIONG KA TSIN KIA KHOO U BAT SIM KAN KHANN AN NE UA BO 
+Eval: I  I    I  I  I    I   I   I   I     I    I  I   I    I     I  I    I   I    I I   I   I   I     I  I  I  I  
+
+id: (dummy-276138)
+Scores: (#C #S #D #I) 0 0 0 15
+REF:  ** *** **** *** ***** **** ***** *** *** *** *** *** * *** *** 
+HYP:  SI KAN TUAN HEH THANG HONG THANG SIN TEH LUN LEH GAU E SIO LAH 
+Eval: I  I   I    I   I     I    I     I   I   I   I   I   I I   I   
+
+id: (dummy-2764946)
+Scores: (#C #S #D #I) 0 0 0 22
+REF:  **** ** * **** *** **** **** ** **** ***** **** ** *** *** *** * *** **** ** ** ** ** 
+HYP:  SIAN SE I TSIT KUI KANG LIAM MI HUAN KUANN LIAM LI HUA LUA KAM E SIT TIOH MA LA LI AH 
+Eval: I    I  I I    I   I    I    I  I    I     I    I  I   I   I   I I   I    I  I  I  I  
+
+id: (dummy-2775589)
+Scores: (#C #S #D #I) 0 0 0 31
+REF:  * ***** *** * ***** *** * *** * ** ** **** ** *** * **** *** * * ** *** ** ** ***** ***** ** * *** *** ** **** 
+HYP:  E TSENN IAU A TSIAU BIN E LAI U KA PI TSHI KO HUE I PING LAI I U TE KHI BI SI KUANN THUAN IT E HOO TSA HO HUAN 
+Eval: I I     I   I I     I   I I   I I  I  I    I  I   I I    I   I I I  I   I  I  I     I     I  I I   I   I  I    
+
+id: (dummy-2782900)
+Scores: (#C #S #D #I) 0 0 0 2
+REF:  **** **** 
+HYP:  KIAU KIAU 
+Eval: I    I    
+
+id: (dummy-2789580)
+Scores: (#C #S #D #I) 0 0 0 7
+REF:  ** **** ***** **** *** **** ** 
+HYP:  KI KHAM KHUAN TSUA KAI TIAN HO 
+Eval: I  I    I     I    I   I    I  
+
+id: (dummy-2802914)
+Scores: (#C #S #D #I) 0 0 0 2
+REF:  *** ** 
+HYP:  TAN SI 
+Eval: I   I  
+
+id: (dummy-2803929)
+Scores: (#C #S #D #I) 0 0 0 67
+REF:  **** *** *** *** ** ***** ** * ** ** *** *** **** ** **** *** ** **** ** *** ****** *** *** ** *** * *** * ***** *** * *** *** ***** ** ** *** ** **** * **** **** ****** ** **** * ** **** **** *** ** *** ** **** ** ** *** *** **** ***** **** *** *** ***** ***** ** *** 
+HYP:  LING GUA TSI KIN KI LIANG TO E GI AU ONG TUE THOO BI TSUN LAI UE THAI SU TIN TSHONG IAU TSI JI LAI E TSU M KHIAU GUA I TSU BIN TSHIT TO HO LIN UI TSIN A TSHU KUAN TSHIAH LI TSIT E IN TSIN THAH HUN HO HIN KO HIAH KO TO HIN TSI THIN TSIUN TSIN HAN HIN HAHIN THIAH KO HIN 
+Eval: I    I   I   I   I  I     I  I I  I  I   I   I    I  I    I   I  I    I  I   I      I   I   I  I   I I   I I     I   I I   I   I     I  I  I   I  I    I I    I    I      I  I    I I  I    I    I   I  I   I  I    I  I  I   I   I    I     I    I   I   I     I     I  I   
+
+id: (dummy-2807064)
+Scores: (#C #S #D #I) 0 0 0 14
+REF:  *** *** * *** *** **** *** ** *** *** ** ***** *** *** 
+HYP:  INE LOO E PHA TSE PONG SIT TE KIT PUN BO SIONG GUA TSE 
+Eval: I   I   I I   I   I    I   I  I   I   I  I     I   I   
+
+id: (dummy-2826234)
+Scores: (#C #S #D #I) 0 0 0 17
+REF:  *** **** **** *** *** ** ** **** **** *** *** ** ** *** **** **** **** 
+HYP:  ONG KHAI THAI BIN SIT PU SI TSAI TSIN GAU TSU KA UI TOH PHAN KONG KONG 
+Eval: I   I    I    I   I   I  I  I    I    I   I   I  I  I   I    I    I    
+
+id: (dummy-282670)
+Scores: (#C #S #D #I) 0 0 0 20
+REF:  **** *** ***** *** *** ** *** ** *** *** **** * *** *** ** **** **** ***** ***** *** 
+HYP:  TSIT KEN PHANG LAI KUE BO LIU KU LAU HUE TSIO E SIO JIN MA LANG KONG THANG TSIAH LAI 
+Eval: I    I   I     I   I   I  I   I  I   I   I    I I   I   I  I    I    I     I     I   
+
+id: (dummy-2836802)
+Scores: (#C #S #D #I) 0 0 0 18
+REF:  ***** ** *** ** *** * **** *** *** ***** *** *** ** ** **** ** *** * 
+HYP:  SETAN SI SUN NA BUN E TIOH LOK TAI TSIAN TIA HOO IN BU TSIN SI TAN I 
+Eval: I     I  I   I  I   I I    I   I   I     I   I   I  I  I    I  I   I 
+
+id: (dummy-2852706)
+Scores: (#C #S #D #I) 0 0 0 16
+REF:  *** *** *** ***** *** *** **** ** *** * **** *** *** **** *** *** 
+HYP:  GUA HUT LAI TSHIA GUE PIN TSIT LA SIT E PHAH IAH TAH KONG KUA HUE 
+Eval: I   I   I   I     I   I   I    I  I   I I    I   I   I    I   I   
+
+id: (dummy-2859668)
+Scores: (#C #S #D #I) 0 0 0 16
+REF:  ** *** *** ** * **** ***** **** ** ** ** **** ** *** ****** **** 
+HYP:  TA KAI TAI TI E TSUT TIUNN TSHU MI AH SI KONG SI KUA TSHIOH KHUE 
+Eval: I  I   I   I  I I    I     I    I  I  I  I    I  I   I      I    
+
+id: (dummy-2865451)
+Scores: (#C #S #D #I) 0 0 0 4
+REF:  *** *** ****** * 
+HYP:  TSE THI KHUANN E 
+Eval: I   I   I      I 
+
+id: (dummy-2868851)
+Scores: (#C #S #D #I) 0 0 0 19
+REF:  **** ***** **** **** *** **** *** **** **** ** ** *** *** *** * ** **** *** ** 
+HYP:  TSUI KHUAN LIAN TANG TAI THIE SIU KHOH PHAH SI PI KIN HAU LOO E AH KONG TAI KI 
+Eval: I    I     I    I    I   I    I   I    I    I  I  I   I   I   I I  I    I   I  
+
+id: (dummy-2869165)
+Scores: (#C #S #D #I) 0 0 0 10
+REF:  **** ** ** **** *** * *** *** **** ***** 
+HYP:  KIAN KI MU KHAH KHO E SIA HUE TSIM TSHIK 
+Eval: I    I  I  I    I   I I   I   I    I     
+
+id: (dummy-2881553)
+Scores: (#C #S #D #I) 0 0 0 8
+REF:  ** **** ** **** ** * *** **** 
+HYP:  HE LOOH SI KIAN NG E TOH KHAU 
+Eval: I  I    I  I    I  I I   I    
+
+id: (dummy-2884300)
+Scores: (#C #S #D #I) 0 0 0 4
+REF:  *** ** * **** 
+HYP:  IMH AH A LIAM 
+Eval: I   I  I I    
+
+id: (dummy-288890)
+Scores: (#C #S #D #I) 0 0 0 19
+REF:  ** *** *** **** ***** * * **** ** *** *** * *** *** *** * ***** *** *** 
+HYP:  BI GOK KAH LUAN TSUAN U U TONG LI TIK LIU I UAN TSI THI E KHIAH NIN KIN 
+Eval: I  I   I   I    I     I I I    I  I   I   I I   I   I   I I     I   I   
+
+id: (dummy-2892242)
+Scores: (#C #S #D #I) 0 0 0 40
+REF:  ** ** ** *** *** *** ** *** *** *** ** *** **** ** *** ** **** ***** ** **** ****** **** *** ***** *** **** ** *** ***** *** ** *** *** **** *** **** ***** * **** ** 
+HYP:  IM TI SI LAI KAU TAK KE KIN KHI HAK KI SIK TSUN BI KIN KI TSIN TSING AI SING TSHUAN KHOO HOO TSIAH KAH TING KI TSI TSIAU SUN SI LAI TUI KIAM TSA LIAU TSIAU E TING KI 
+Eval: I  I  I  I   I   I   I  I   I   I   I  I   I    I  I   I  I    I     I  I    I      I    I   I     I   I    I  I   I     I   I  I   I   I    I   I    I     I I    I  
+
+id: (dummy-2904425)
+Scores: (#C #S #D #I) 0 0 0 14
+REF:  *** *** *** ** **** *** **** *** ** ***** ** **** *** ** 
+HYP:  JIN TSE KAU PE THIO KAU THIO LEH KI TSING SI TSIT LAU AI 
+Eval: I   I   I   I  I    I   I    I   I  I     I  I    I   I  
+
+id: (dummy-2909321)
+Scores: (#C #S #D #I) 0 0 0 19
+REF:  ** ***** *** ***** **** ** *** *** **** ** *** ** **** *** *** **** ***** *** *** 
+HYP:  LI THANG MNG TSHUI TSIU PE LAU KOH KHOK AH IAU KO SING BEH KAH LANG TSHUA SUI BOO 
+Eval: I  I     I   I     I    I  I   I   I    I  I   I  I    I   I   I    I     I   I   
+
+id: (dummy-2917401)
+Scores: (#C #S #D #I) 0 0 0 14
+REF:  ** *** **** **** ** **** * *** **** **** *** **** *** *** 
+HYP:  LI KAM TIAU KONG LI HUAN E HOO PUAT TUAI TSU TONG SIU HAK 
+Eval: I  I   I    I    I  I    I I   I    I    I   I    I   I   
+
+id: (dummy-2961282)
+Scores: (#C #S #D #I) 0 0 0 19
+REF:  ** ** ** *** *** **** *** * *** ** ** **** ** ** *** *** *** ***** *** 
+HYP:  HO HO HO LAH LAH LIAU GUA E LAN TO BE TSIT SU HO LAH MAI HAU HONNH HAI 
+Eval: I  I  I  I   I   I    I   I I   I  I  I    I  I  I   I   I   I     I   
+
+id: (dummy-2978798)
+Scores: (#C #S #D #I) 0 0 0 11
+REF:  ** **** ** *** * *** *** **** *** *** **** 
+HYP:  LI TSAH KI TSI A LIN PAI KHIN LAI KHI BUEH 
+Eval: I  I    I  I   I I   I   I    I   I   I    
+
+id: (dummy-2980541)
+Scores: (#C #S #D #I) 0 0 0 8
+REF:  * *** *** *** ** ** *** ** 
+HYP:  O SIA PUA LAH NG MI KUE AH 
+Eval: I I   I   I   I  I  I   I  
+
+id: (dummy-2998928)
+Scores: (#C #S #D #I) 0 0 0 2
+REF:  *** ***** 
+HYP:  SIN KUANN 
+Eval: I   I     
+
+id: (dummy-3011117)
+Scores: (#C #S #D #I) 0 0 0 9
+REF:  **** * ** *** *** ** ***** *** ****** 
+HYP:  KUAI I TO KAH HUE LI TSIAH TOO HUANNH 
+Eval: I    I I  I   I   I  I     I   I      
+
+id: (dummy-303200)
+Scores: (#C #S #D #I) 0 0 0 10
+REF:  ***** *** **** *** * ** **** *** **** ** 
+HYP:  SIANN MIH THAU LOO E PI TSIT LAU KHAH HO 
+Eval: I     I   I    I   I I  I    I   I    I  
+
+id: (dummy-303909)
+Scores: (#C #S #D #I) 0 0 0 26
+REF:  *** **** * **** * *** **** *** **** **** ** *** ****** * ***** * ** **** * ** **** *** *** *** ** ** 
+HYP:  KAU KHUE A LANG U IAN SIUN LAH LIAH LIAU LI KHE TSHINN E TSHAH E KI LONG U GU SIAN KHA SIN KHA TO LO 
+Eval: I   I    I I    I I   I    I   I    I    I  I   I      I I     I I  I    I I  I    I   I   I   I  I  
+
+id: (dummy-3040003)
+Scores: (#C #S #D #I) 0 0 0 6
+REF:  *** *** *** **** *** **** 
+HYP:  TAN BEH PAH KHAH LIN PUAH 
+Eval: I   I   I   I    I   I    
+
+id: (dummy-3056522)
+Scores: (#C #S #D #I) 0 0 0 7
+REF:  *** * *** * *** *** ***** 
+HYP:  TSU M MAI E HOO GUA TSIAH 
+Eval: I   I I   I I   I   I     
+
+id: (dummy-3058023)
+Scores: (#C #S #D #I) 0 0 0 16
+REF:  ** ** *** **** *** **** *** **** **** ***** ** *** **** ** ** ****** 
+HYP:  LI KA MNG KIAM JIN THAU KAK KHUE TIAM HONNH KO TSA KHUA HO LI TSHIAN 
+Eval: I  I  I   I    I   I    I   I    I    I     I  I   I    I  I  I      
+
+id: (dummy-3072209)
+Scores: (#C #S #D #I) 0 0 0 35
+REF:  **** **** **** **** *** *** *** *** *** ** * * **** *** ***** **** **** ** *** **** ** ** ****** * *** **** ****** ** ** **** *** ** **** **** ** 
+HYP:  NANG TONG KONG TSUE KIN SUA LOH LAI KAK TO E U HONG HAI SIONG TSIO TSIT SI KOO KANG SI BO KHUANN E LAH GUAN TSIONG PI IU KING KAI SI LIAN HUAN LO 
+Eval: I    I    I    I    I   I   I   I   I   I  I I I    I   I     I    I    I  I   I    I  I  I      I I   I    I      I  I  I    I   I  I    I    I  
+
+id: (dummy-3089882)
+Scores: (#C #S #D #I) 0 0 0 11
+REF:  *** * *** *** ***** ***** ** *** ***** **** * 
+HYP:  GUA E KAH LAK KHONG TSUAN LE KHI TSHUE TSHI A 
+Eval: I   I I   I   I     I     I  I   I     I    I 
+
+id: (dummy-3100909)
+Scores: (#C #S #D #I) 0 0 0 39
+REF:  **** * * **** **** * ** * *** ** ** **** ** **** ** **** *** ** ** **** ** *** ** *** ** *** ** ***** *** * **** ***** ***** *** *** **** ** **** ** 
+HYP:  TSIT E U KHIO SHIN E KA I TSU KA IN TING SE SING HU TSIT PAI HO KA LIAU AU THE UT KAU TO PUT KA TSINN SIN E TANG KHUAN TSING HAH SIT TSUI TU KHAH SI 
+Eval: I    I I I    I    I I  I I   I  I  I    I  I    I  I    I   I  I  I    I  I   I  I   I  I   I  I     I   I I    I     I     I   I   I    I  I    I  
+
+id: (dummy-3105160)
+Scores: (#C #S #D #I) 0 0 0 15
+REF:  * ***** *** *** ** * **** ***** ** * ** ** *** * *** 
+HYP:  A SIONG SIM KAI TI I TIUN TIONG HA I TI HO LAN E TIU 
+Eval: I I     I   I   I  I I    I     I  I I  I  I   I I   
+
+id: (dummy-3113076)
+Scores: (#C #S #D #I) 0 0 0 24
+REF:  ** *** ** ** ***** **** *** *** ** **** ***** ** ** ** ***** ** *** **** **** *** ** **** ** *** 
+HYP:  BO LUH TE SI TIANG TONG TAI TAK KE SIAK TSIAN KU KU KA TSIAN UI PAI LIAH TSIN LAK KE LONG SU IAU 
+Eval: I  I   I  I  I     I    I   I   I  I    I     I  I  I  I     I  I   I    I    I   I  I    I  I   
+
+id: (dummy-3113484)
+Scores: (#C #S #D #I) 0 0 0 5
+REF:  *** *** *** *** *** 
+HYP:  BEI GUA LAI KHI KHO 
+Eval: I   I   I   I   I   
+
+id: (dummy-3115870)
+Scores: (#C #S #D #I) 0 0 0 21
+REF:  *** ***** *** **** *** ** ***** ****** *** ** **** *** ***** * **** *** * * **** ** *** 
+HYP:  KUA BIONG BIO TIAN LUI AI SIANG TSHING LUI KI THOO LAN THIAN U PING TSO A A TONG LU KIN 
+Eval: I   I     I   I    I   I  I     I      I   I  I    I   I     I I    I   I I I    I  I   
+
+id: (dummy-3123460)
+Scores: (#C #S #D #I) 0 0 0 24
+REF:  ** **** *** * **** **** **** *** *** * ** *** *** *** *** ** * ** ** *** ** **** *** ***** 
+HYP:  MN SING PIH E TIAN KUAN TSAP KHI PAI A HO TAI PAI LOH TOO PI E KE IU TUI SI TIOH TSE TSIAN 
+Eval: I  I    I   I I    I    I    I   I   I I  I   I   I   I   I  I I  I  I   I  I    I   I     
+
+id: (dummy-3133299)
+Scores: (#C #S #D #I) 0 0 0 29
+REF:  ** **** *** *** ** ** ** ***** ** ** ** *** **** **** **** *** *** ** ****** *** ** ** *** **** **** *** ** ***** *** 
+HYP:  KO TSIU KOK PUE BO KI JI KHONG IT JI LI IAU HUAI HONG SING HUN HUA HO KHUANN IAP NI TE TSA SING KHAK SIU KA TSHNG PHU 
+Eval: I  I    I   I   I  I  I  I     I  I  I  I   I    I    I    I   I   I  I      I   I  I  I   I    I    I   I  I     I   
+
+id: (dummy-3133572)
+Scores: (#C #S #D #I) 0 0 0 29
+REF:  *** *** *** ** *** ** *** *** ** **** *** *** ** **** *** **** *** **** ***** *** *** ** *** *** **** ****** *** *** * 
+HYP:  SUN BEH HOO SE KAI TO KAH UAN LI SIUN BEH HOO KA TING KOH KHAH ING KHOO SIUNN BEH HOO SE MIA KOH KHAH TSIONG SIT SOO I 
+Eval: I   I   I   I  I   I  I   I   I  I    I   I   I  I    I   I    I   I    I     I   I   I  I   I   I    I      I   I   I 
+
+id: (dummy-3136031)
+Scores: (#C #S #D #I) 0 0 0 9
+REF:  *** *** *** **** ** *** *** *** ** 
+HYP:  TON BEH KHI SING TE TUA LEH KOO SI 
+Eval: I   I   I   I    I  I   I   I   I  
+
+id: (dummy-3160145)
+Scores: (#C #S #D #I) 0 0 0 9
+REF:  **** *** *** **** * *** ** *** *** 
+HYP:  TIAM KAM TIT PINN A TSO BO SUT JIN 
+Eval: I    I   I   I    I I   I  I   I   
+
+id: (dummy-3161846)
+Scores: (#C #S #D #I) 0 0 0 26
+REF:  ** ** *** *** *** ** ** ***** **** *** **** *** *** * ** ***** **** ** *** **** *** **** ***** **** ***** ***** 
+HYP:  TI BI KOU HOO PIN OO AN TSING TSOK HOO HONG PNG IAN E SI TSING TSHU UI TSU TANG KHE TIAN TSIAN TSUN TSONG THONG 
+Eval: I  I  I   I   I   I  I  I     I    I   I    I   I   I I  I     I    I  I   I    I   I    I     I    I     I     
+
+id: (dummy-3191964)
+Scores: (#C #S #D #I) 0 0 0 4
+REF:  *** *** *** *** 
+HYP:  BAN TSE LAI TSE 
+Eval: I   I   I   I   
+
+id: (dummy-3208008)
+Scores: (#C #S #D #I) 0 0 0 6
+REF:  **** *** *** *** ** *** 
+HYP:  THAU ING SIU GUI AI TSI 
+Eval: I    I   I   I   I  I   
+
+id: (dummy-3211469)
+Scores: (#C #S #D #I) 0 0 0 10
+REF:  ** *** **** *** **** * *** **** *** *** 
+HYP:  LI SIU TSIA KUN KHAI E PUE KONG TUE IAU 
+Eval: I  I   I    I   I    I I   I    I   I   
+
+id: (dummy-3214926)
+Scores: (#C #S #D #I) 0 0 0 8
+REF:  ** ***** **** *** * ** **** *** 
+HYP:  LI SIANG TSIT TSU E NN THAI BAH 
+Eval: I  I     I    I   I I  I    I   
+
+id: (dummy-3252040)
+Scores: (#C #S #D #I) 0 0 0 11
+REF:  *** ** *** * *** ** *** *** **** *** ** 
+HYP:  SIA BO KOH A KAH IT PUE PUE IANN HAU BO 
+Eval: I   I  I   I I   I  I   I   I    I   I  
+
+id: (dummy-3259534)
+Scores: (#C #S #D #I) 0 0 0 11
+REF:  **** *** **** **** ** ***** *** ** *** *** *** 
+HYP:  THAN KIN GUAH LANG KE TSHAI IAT GO LAU SIO KUE 
+Eval: I    I   I    I    I  I     I   I  I   I   I   
+
+id: (dummy-3272157)
+Scores: (#C #S #D #I) 0 0 0 4
+REF:  *** * * *** 
+HYP:  GUA E E SIM 
+Eval: I   I I I   
+
+id: (dummy-3273154)
+Scores: (#C #S #D #I) 0 0 0 14
+REF:  **** ** **** *** *** *** **** ** * **** ** ** ** ***** 
+HYP:  PONG IA SING PAI SAP SAT LOOH AU E TSAI OO BO SI TSING 
+Eval: I    I  I    I   I   I   I    I  I I    I  I  I  I     
+
+id: (dummy-3286553)
+Scores: (#C #S #D #I) 0 0 0 24
+REF:  ****** *** *** *** *** *** ** ** **** **** ** *** *** ***** * ** ***** *** **** ** **** **** ***** *** 
+HYP:  TSIONG IAP SAU KAM HIK POT JU SI TONG KING IK KIK KIU TSHUT U KI TSHUT KAI HUAN SI KIAH SING PHANN KAI 
+Eval: I      I   I   I   I   I   I  I  I    I    I  I   I   I     I I  I     I   I    I  I    I    I     I   
+
+id: (dummy-3286892)
+Scores: (#C #S #D #I) 0 0 0 27
+REF:  ** * *** **** *** *** *** *** *** ***** * **** *** * ** **** *** *** ** *** *** ** **** *** **** ***** *** 
+HYP:  IN E PUT PUAN TOH KAU LAI TSU SAM TSIAH E TSNG KHA E KU BUAN HUE HAP TI SIA HUE UN TING TSO SING KHIAU TSE 
+Eval: I  I I   I    I   I   I   I   I   I     I I    I   I I  I    I   I   I  I   I   I  I    I   I    I     I   
+
+id: (dummy-3287339)
+Scores: (#C #S #D #I) 0 0 0 10
+REF:  ** **** *** **** *** **** * ** ***** * 
+HYP:  KO LING GUA KHOK KAU TSUN E SI TSHIA E 
+Eval: I  I    I   I    I   I    I I  I     I 
+
+id: (dummy-3291624)
+Scores: (#C #S #D #I) 0 0 0 6
+REF:  * *** ***** ** **** ** 
+HYP:  M BEH TUANN KA PHEH LI 
+Eval: I I   I     I  I    I  
+
+id: (dummy-3299293)
+Scores: (#C #S #D #I) 0 0 0 32
+REF:  ** *** ***** **** ** *** ***** *** *** ** ** **** ** ** **** * *** *** *** ** **** **** ** *** ** **** ** *** ** *** ***** *** 
+HYP:  SU TAI TIUNN KHUI NE LUI TSHUI KUE HOO TO OO THAU TI LE TIAU A KUI TOO KHI UI TIAU HANN KA TIN TO TIAN LI LAN KI LOH HUANN LAI 
+Eval: I  I   I     I    I  I   I     I   I   I  I  I    I  I  I    I I   I   I   I  I    I    I  I   I  I    I  I   I  I   I     I   
+
+id: (dummy-329980)
+Scores: (#C #S #D #I) 0 0 0 13
+REF:  **** *** *** ** ** ***** ***** *** *** *** * ** *** 
+HYP:  SIAU KHI KAU JI JI THIAN TSHIN LOH LAI IMA E OO KUI 
+Eval: I    I   I   I  I  I     I     I   I   I   I I  I   
+
+id: (dummy-3301905)
+Scores: (#C #S #D #I) 0 0 0 9
+REF:  ** ******* * ** *** *** ** ** *** 
+HYP:  LI TSHIUNN A SU KUI LOH BE LI KAH 
+Eval: I  I       I I  I   I   I  I  I   
+
+id: (dummy-3302187)
+Scores: (#C #S #D #I) 0 0 0 12
+REF:  **** * ***** ** ** ** ** ** **** ** *** **** 
+HYP:  GUAN U KHING SI AN NE BE KE KHOO KA SAN IONG 
+Eval: I    I I     I  I  I  I  I  I    I  I   I    
+
+id: (dummy-3309233)
+Scores: (#C #S #D #I) 0 0 0 11
+REF:  *** ***** **** ** **** *** *** * *** *** **** 
+HYP:  LAN TSIAN TSUI HI LONG KUA HAN E PUN KOO TSIN 
+Eval: I   I     I    I  I    I   I   I I   I   I    
+
+id: (dummy-331155)
+Scores: (#C #S #D #I) 0 0 0 16
+REF:  ** * *** *** ** *** *** *** **** * **** ** *** ***** ** *** 
+HYP:  AI E ANG TAI GI GUN HAM BUE KHAN E TSOK TI TSA TSHOO KI KIN 
+Eval: I  I I   I   I  I   I   I   I    I I    I  I   I     I  I   
+
+id: (dummy-3326766)
+Scores: (#C #S #D #I) 0 0 0 12
+REF:  * **** ** *** *** *** *** ** ** ** *** *** 
+HYP:  U LANG BE LAI BOH GUA LAK SI TE UE KOO LAH 
+Eval: I I    I  I   I   I   I   I  I  I  I   I   
+
+id: (dummy-3333733)
+Scores: (#C #S #D #I) 0 0 0 22
+REF:  * ****** ** *** ** * ** *** *** *** ** ** *** **** **** ** ** ** ***** *** *** ** 
+HYP:  I TSIONG LI TAN NI E SU LUI KAU SIT TE SI KUA KANG TING NA SU IA SIONG TSE KUI UE 
+Eval: I I      I  I   I  I I  I   I   I   I  I  I   I    I    I  I  I  I     I   I   I  
+
+id: (dummy-3338249)
+Scores: (#C #S #D #I) 0 0 0 16
+REF:  ** ** *** *** * * ** *** ** ** *** *** **** * *** ** 
+HYP:  AN NE SIU KAI U E BO PUN TE PA HUN THA LING U BUN TE 
+Eval: I  I  I   I   I I I  I   I  I  I   I   I    I I   I  
+
+id: (dummy-3340732)
+Scores: (#C #S #D #I) 0 0 0 1
+REF:  ** 
+HYP:  HO 
+Eval: I  
+
+id: (dummy-3343791)
+Scores: (#C #S #D #I) 0 0 0 5
+REF:  ** * **** **** *** 
+HYP:  MU E HIAN KIAN LAH 
+Eval: I  I I    I    I   
+
+id: (dummy-3345902)
+Scores: (#C #S #D #I) 0 0 0 9
+REF:  ** ** *** **** *** ** **** ** *** 
+HYP:  SI AH LUN TSAI NIO LI GIOH AH LAH 
+Eval: I  I  I   I    I   I  I    I  I   
+
+id: (dummy-3359555)
+Scores: (#C #S #D #I) 0 0 0 9
+REF:  ** **** *** **** **** **** *** *** ***** 
+HYP:  TI KHEH KUI PUAN PONG LONG KHI PUE THANG 
+Eval: I  I    I   I    I    I    I   I   I     
+
+id: (dummy-3366285)
+Scores: (#C #S #D #I) 0 0 0 7
+REF:  * *** **** **** *** ** ** 
+HYP:  N KIN TSIT TIUH LAH BE SI 
+Eval: I I   I    I    I   I  I  
+
+id: (dummy-3373047)
+Scores: (#C #S #D #I) 0 0 0 11
+REF:  *** *** ** * * *** * ***** ** ** *** 
+HYP:  MUE KAH NI E U LAI U TSIAH TO KA HNG 
+Eval: I   I   I  I I I   I I     I  I  I   
+
+id: (dummy-3374337)
+Scores: (#C #S #D #I) 0 0 0 5
+REF:  ** *** *** ** *** 
+HYP:  BE BEH KAH SI NOH 
+Eval: I  I   I   I  I   
+
+id: (dummy-3380867)
+Scores: (#C #S #D #I) 0 0 0 3
+REF:  *** **** **** 
+HYP:  GUN LIAH TSAI 
+Eval: I   I    I    
+
+id: (dummy-3383716)
+Scores: (#C #S #D #I) 0 0 0 10
+REF:  ***** **** **** * *** ** ** **** *** **** 
+HYP:  THANN KONG LINN A KOO UN AI KHAH TAI KUAH 
+Eval: I     I    I    I I   I  I  I    I   I    
+
+id: (dummy-3392117)
+Scores: (#C #S #D #I) 0 0 0 20
+REF:  ***** * * **** *** *** *** *** *** * *** *** ** *** **** ***** *** *** ** **** 
+HYP:  THUAN A E TSIT SIN LEH TAU KAH PAH I PAI HIE KA LIO LIAH SIANN MIH LAI UE BUAH 
+Eval: I     I I I    I   I   I   I   I   I I   I   I  I   I    I     I   I   I  I    
+
+id: (dummy-3393937)
+Scores: (#C #S #D #I) 0 0 0 13
+REF:  *** ***** ** ** ** **** ** *** *** *** ***** ** ***** 
+HYP:  SUE KHANG BE KI TO TING AI LAK SIP LAI THANG KU PHONH 
+Eval: I   I     I  I  I  I    I  I   I   I   I     I  I     
+
+id: (dummy-3406082)
+Scores: (#C #S #D #I) 0 0 0 19
+REF:  ***** ******* *** ** *** *** * *** *** ** *** *** *** *** *** ** **** * ** 
+HYP:  TSHIN TSHIUNN HAN LO POO HUN E ONG LAI AM KUE TSU PUN ING KAI SI TSIT E SU 
+Eval: I     I       I   I  I   I   I I   I   I  I   I   I   I   I   I  I    I I  
+
+id: (dummy-3409841)
+Scores: (#C #S #D #I) 0 0 0 6
+REF:  ** * *** * ** ** 
+HYP:  AI I IAU M SI AH 
+Eval: I  I I   I I  I  
+
+id: (dummy-362800)
+Scores: (#C #S #D #I) 0 0 0 24
+REF:  *** *** ***** *** *** * **** ** *** ** *** *** ** *** **** ** * ****** *** ** ** ** ** ** 
+HYP:  TUE PUT TSHUT LAH GUA M TSAI PO LAI TE SIT TIO NI HOO SUAN PE A TSIANN TSE JI AN NE KA IN 
+Eval: I   I   I     I   I   I I    I  I   I  I   I   I  I   I    I  I I      I   I  I  I  I  I  
+
+id: (dummy-36359)
+Scores: (#C #S #D #I) 0 0 0 10
+REF:  **** **** *** ** **** **** **** ** *** *** 
+HYP:  TSAN TSIT HUE HA SIOK PUAH HONG LU KUA KIN 
+Eval: I    I    I   I  I    I    I    I  I   I   
+
+id: (dummy-374922)
+Scores: (#C #S #D #I) 0 0 0 9
+REF:  * ** ** ** *** **** ** *** **** 
+HYP:  A HA HO LI LAK HUAT IE TAI HIAM 
+Eval: I I  I  I  I   I    I  I   I    
+
+id: (dummy-38921)
+Scores: (#C #S #D #I) 0 0 0 7
+REF:  *** *** *** **** ** ***** ** 
+HYP:  KUE LAI KAI HIAU LI TSHUT LO 
+Eval: I   I   I   I    I  I     I  
+
+id: (dummy-39111)
+Scores: (#C #S #D #I) 0 0 0 17
+REF:  ** ** ** **** *** *** *** *** ** *** *** **** *** ***** * *** *** 
+HYP:  EH AH LI TIAH KOH KAI NIA LAH AH LIN PAI KIAH KOH TSIOH A KAU LAH 
+Eval: I  I  I  I    I   I   I   I   I  I   I   I    I   I     I I   I   
+
+id: (dummy-402179)
+Scores: (#C #S #D #I) 0 0 0 15
+REF:  ** *** * ***** **** **** *** ** ** *** * ** ****** *** ** 
+HYP:  IN KOH E TSIAN THEN LONG MUA TI BO KIT E BE TSIANN KUI LI 
+Eval: I  I   I I     I    I    I   I  I  I   I I  I      I   I  
+
+id: (dummy-422527)
+Scores: (#C #S #D #I) 0 0 0 22
+REF:  *** **** *** *** **** *** **** **** * ***** * *** ***** ** *** *** ** **** *** **** **** ** 
+HYP:  TUI PHUI TIN LAI KONG TSE TSAI PIAU I KIONG E TUI KHONG BI KOK KAH AU TSIU KIT TIOH SING LI 
+Eval: I   I    I   I   I    I   I    I    I I     I I   I     I  I   I   I  I    I   I    I    I  
+
+id: (dummy-425711)
+Scores: (#C #S #D #I) 0 0 0 22
+REF:  **** **** ***** *** ** *** *** ** *** *** ***** * ** ***** *** *** ***** *** *** *** ** *** 
+HYP:  TSAN SING TSIAN TOO LE INN KIA NG SIT HOO SUANN M KE TIONG HAH TNG TIUNN KOK KUE KAU TE TSE 
+Eval: I    I    I     I   I  I   I   I  I   I   I     I I  I     I   I   I     I   I   I   I  I   
+
+id: (dummy-431404)
+Scores: (#C #S #D #I) 0 0 0 3
+REF:  **** ** ** 
+HYP:  KHAU BO LE 
+Eval: I    I  I  
+
+id: (dummy-440384)
+Scores: (#C #S #D #I) 0 0 0 13
+REF:  ***** *** ** ** *** * **** ***** **** **** ****** * * 
+HYP:  TSHAN PUA AH SI KUN A KONG TSHAU SIOK PHAI PHUANN E I 
+Eval: I     I   I  I  I   I I    I     I    I    I      I I 
+
+id: (dummy-457197)
+Scores: (#C #S #D #I) 0 0 0 4
+REF:  *** * ******* ***** 
+HYP:  LAI E TSHIUNN KUANN 
+Eval: I   I I       I     
+
+id: (dummy-459654)
+Scores: (#C #S #D #I) 0 0 0 6
+REF:  ***** ** *** ** *** *** 
+HYP:  TSIAH BO KUN BE GIN LAH 
+Eval: I     I  I   I  I   I   
+
+id: (dummy-476692)
+Scores: (#C #S #D #I) 0 0 0 25
+REF:  ** *** *** *** *** ** *** ** *** ** *** *** *** * *** **** **** *** ** ** ** *** ** *** ** 
+HYP:  AI KOU HOU BUE IAU AU TIA TI HAU KI SIO SIU TAH I TAN KHAN TSHA IUN BI AN KI TSE BE SUE KI 
+Eval: I  I   I   I   I   I  I   I  I   I  I   I   I   I I   I    I    I   I  I  I  I   I  I   I  
+
+id: (dummy-476814)
+Scores: (#C #S #D #I) 0 0 0 14
+REF:  ** ** *** ** ** **** *** *** *** **** **** **** * ** 
+HYP:  AU UA TAI SO BE TIAH LEH ING KHI TSAI LIAT KHAH M BI 
+Eval: I  I  I   I  I  I    I   I   I   I    I    I    I I  
+
+id: (dummy-488215)
+Scores: (#C #S #D #I) 0 0 0 12
+REF:  * ***** **** ***** ***** ***** * ***** **** ** **** * 
+HYP:  I TSHIT TSHI TSONG TSHUN PHONG E TSHNG LONG BO KHIA E 
+Eval: I I     I    I     I     I     I I     I    I  I    I 
+
+id: (dummy-488365)
+Scores: (#C #S #D #I) 0 0 0 16
+REF:  ** ***** ** ***** *** *** *** * **** *** ** ** **** **** ** ** 
+HYP:  UN KHUAH BE TSHUT LAI GUA SIA E TSOK BUN SI KA TSIT TING BO HO 
+Eval: I  I     I  I     I   I   I   I I    I   I  I  I    I    I  I  
+
+id: (dummy-504914)
+Scores: (#C #S #D #I) 0 0 0 6
+REF:  ***** ** *** * **** ***** 
+HYP:  GUAKH LI LAI E HONG HIONG 
+Eval: I     I  I   I I    I     
+
+id: (dummy-532410)
+Scores: (#C #S #D #I) 0 0 0 6
+REF:  *** *** *** *** *** ** 
+HYP:  TAM BUE TSO KAN HOO LE 
+Eval: I   I   I   I   I   I  
+
+id: (dummy-542720)
+Scores: (#C #S #D #I) 0 0 0 2
+REF:  ** **** 
+HYP:  AI IONG 
+Eval: I  I    
+
+id: (dummy-566668)
+Scores: (#C #S #D #I) 0 0 0 30
+REF:  ** **** ***** *** ** **** *** *** **** *** **** * **** *** *** *** ** *** **** ** * ** *** **** ** ** ** **** ***** *** 
+HYP:  TI TIOH SIANG LOO SI TINN TUA LAK THUI SAK KUAN I SIAN KUI TSU GIN PO LAN TSIT SI A TO SIN KIAU TI BO KI TIAU KHANG SIA 
+Eval: I  I    I     I   I  I    I   I   I    I   I    I I    I   I   I   I  I   I    I  I I  I   I    I  I  I  I    I     I   
+
+id: (dummy-57069)
+Scores: (#C #S #D #I) 0 0 0 13
+REF:  ** *** ** * *** ** ** ** ***** *** **** ***** ** 
+HYP:  LU SIT UA E PHI LA BE TA TSIAM TAI SING KHUAN NI 
+Eval: I  I   I  I I   I  I  I  I     I   I    I     I  
+
+id: (dummy-58321)
+Scores: (#C #S #D #I) 0 0 0 26
+REF:  ** **** ***** **** ** * **** **** **** ** *** ** ** *** *** ***** ** ******* *** ** **** *** *** *** ** *** 
+HYP:  IU LONG HIANG SIAN SU I LONG PING TIAN SI LIT NA BO TOH LEH TSHEN LI TSHIANN KAU KE TSIT TAI SIO TAN TO SIA 
+Eval: I  I    I     I    I  I I    I    I    I  I   I  I  I   I   I     I  I       I   I  I    I   I   I   I  I   
+
+id: (dummy-585014)
+Scores: (#C #S #D #I) 0 0 0 17
+REF:  **** *** ***** *** ** * ***** ** **** **** ** **** ** **** *** **** ***** 
+HYP:  TSIT ANG TSHAI LAI TE U TSHAP UE BONG TIOH LE BONG MI TSIT KAU TSIN PHANG 
+Eval: I    I   I     I   I  I I     I  I    I    I  I    I  I    I   I    I     
+
+id: (dummy-590004)
+Scores: (#C #S #D #I) 0 0 0 10
+REF:  *** **** **** * * ** ** **** ** **** 
+HYP:  GOO PIAM TSUI I A IO PI PHEN SU TSOO 
+Eval: I   I    I    I I I  I  I    I  I    
+
+id: (dummy-606309)
+Scores: (#C #S #D #I) 0 0 0 7
+REF:  ** * ** **** ***** **** *** 
+HYP:  UI E HA LIAH PHUAH LIAU KIH 
+Eval: I  I I  I    I     I    I   
+
+id: (dummy-612472)
+Scores: (#C #S #D #I) 0 0 0 26
+REF:  **** ** *** ***** ** ** *** ***** *** ** ** ** *** * ***** ******* ** *** **** ***** *** ** * ****** ** ** 
+HYP:  NANG BE PAH KHING LI HO SUA TIANN KOO UE BU UA KHO A TSHIN TSHIUNN SA HUN PHUE TSING KUN NA E TSIANN LI PO 
+Eval: I    I  I   I     I  I  I   I     I   I  I  I  I   I I     I       I  I   I    I     I   I  I I      I  I  
+
+id: (dummy-626347)
+Scores: (#C #S #D #I) 0 0 0 28
+REF:  ***** ** *** * **** ***** ** *** ** *** ** ** ** *** ***** *** ** * **** *** **** **** ** * **** ** *** *** 
+HYP:  KIANN BI KOK I LANG KIANN UA SAU PI KHO KA TI BI KOK TSIAT KIN KA I LANG TAI SIAN KUAN HE I TING IN KHI TSI 
+Eval: I     I  I   I I    I     I  I   I  I   I  I  I  I   I     I   I  I I    I   I    I    I  I I    I  I   I   
+
+id: (dummy-639763)
+Scores: (#C #S #D #I) 0 0 0 22
+REF:  * ***** * **** ***** **** **** ***** *** **** *** **** ***** *** **** *** ***** ** ** *** ** *** 
+HYP:  I HIONG A SONG TSHOO SIUN TIAH KHANG KAN LUAN HOO TSHO TSONG IAN KHIT KAU KHONG TI KO SIP PU ANG 
+Eval: I I     I I    I     I    I    I     I   I    I   I    I     I   I    I   I     I  I  I   I  I   
+
+id: (dummy-64317)
+Scores: (#C #S #D #I) 0 0 0 21
+REF:  **** * * ** ** **** * ** * * ** **** ** ** ** **** ** ***** ***** *** * 
+HYP:  TSIT E E KI HI LANG E TI E S SI IONG SE AH SI THAU KO THONG TSHUH TSO E 
+Eval: I    I I I  I  I    I I  I I I  I    I  I  I  I    I  I     I     I   I 
+
+id: (dummy-645938)
+Scores: (#C #S #D #I) 0 0 0 8
+REF:  ***** *** **** * * ** **** ** 
+HYP:  GUANN KAH TUAH E A KI TIAH AH 
+Eval: I     I   I    I I I  I    I  
+
+id: (dummy-665641)
+Scores: (#C #S #D #I) 0 0 0 13
+REF:  *** ** ***** **** ** * ***** **** ** ***** **** ***** ***** 
+HYP:  GUA SI TSHIA KHAU BO A TSIAU LIOH AU TSING TSIN KHONG KHIAH 
+Eval: I   I  I     I    I  I I     I    I  I     I    I     I     
+
+id: (dummy-667294)
+Scores: (#C #S #D #I) 0 0 0 12
+REF:  *** ***** **** *** ** ** ** ***** ** ** **** ***** 
+HYP:  KOH TSIUN TINN GUA BO TE HI TSIAH TE LI HIAN KHONG 
+Eval: I   I     I    I   I  I  I  I     I  I  I    I     
+
+id: (dummy-66822)
+Scores: (#C #S #D #I) 0 0 0 17
+REF:  *** **** ** ** ** *** * **** ** *** *** ** *** *** **** ***** **** 
+HYP:  BAN LANG AI BO PU LOH U HING PI GUA HAK NE KUA GUA THOO TSHAP KIAH 
+Eval: I   I    I  I  I  I   I I    I  I   I   I  I   I   I    I     I    
+
+id: (dummy-690341)
+Scores: (#C #S #D #I) 0 0 0 10
+REF:  ** **** ****** *** ** *** **** * *** *** 
+HYP:  AN PIAU TSHIAH TUA HA HOO HUAN M HOH SIO 
+Eval: I  I    I      I   I  I   I    I I   I   
+
+id: (dummy-690925)
+Scores: (#C #S #D #I) 0 0 0 25
+REF:  ** *** *** *** *** **** ** **** ** * ** **** ** * *** ***** ** **** **** *** **** *** ** ** ***** 
+HYP:  TI KAT BUN TSO TIA HONG BO BANG MA E IU TING SI I TSU TIONG SU IONG KING THE KANG HUA KA IN LIONG 
+Eval: I  I   I   I   I   I    I  I    I  I I  I    I  I I   I     I  I    I    I   I    I   I  I  I     
+
+id: (dummy-698370)
+Scores: (#C #S #D #I) 0 0 0 19
+REF:  *** *** * **** *** *** ** ** **** *** **** **** * ** **** *** *** * **** 
+HYP:  TSU LAI E KHAH KUE TAP HO TI TIUH TAK KANG KONG E TO TSEH HIN TSO E LIAH 
+Eval: I   I   I I    I   I   I  I  I    I   I    I    I I  I    I   I   I I    
+
+id: (dummy-702181)
+Scores: (#C #S #D #I) 0 0 0 28
+REF:  ** ** *** * ***** **** *** ***** *** *** *** ** **** ** *** *** **** ** **** ****** **** *** *** ** *** **** *** **** 
+HYP:  IN TO TSI A THING LENG TAH TIANN KAH HUE SUE HI TSUI LI SOK LAK TSIT MA KONG TSUANN KIAN KUE KHI SI TIA KHIA KHA BUAN 
+Eval: I  I  I   I I     I    I   I     I   I   I   I  I    I  I   I   I    I  I    I      I    I   I   I  I   I    I   I    
+
+id: (dummy-712455)
+Scores: (#C #S #D #I) 0 0 0 7
+REF:  ***** **** *** *** ***** ***** **** 
+HYP:  TIANN KIAU TOH KAU TSHIT TSHAI PUEH 
+Eval: I     I    I   I   I     I     I    
+
+id: (dummy-714860)
+Scores: (#C #S #D #I) 0 0 0 7
+REF:  **** **** *** **** ***** *** **** 
+HYP:  KHIN TIOH KAH PONG TSIAH HOO LIAU 
+Eval: I    I    I   I    I     I   I    
+
+id: (dummy-7179)
+Scores: (#C #S #D #I) 0 0 0 14
+REF:  ***** ** *** ** ***** **** **** * *** ***** ** ***** *** *** 
+HYP:  KHANG NI LAI AI TIANG KUAN TSIT E SUA THANG MI SIONG KHA TOO 
+Eval: I     I  I   I  I     I    I    I I   I     I  I     I   I   
+
+id: (dummy-719837)
+Scores: (#C #S #D #I) 0 0 0 8
+REF:  *** * *** * ***** **** **** ***** 
+HYP:  KIN E HAI U TSHAT KHOO TIAK TSIOH 
+Eval: I   I I   I I     I    I    I     
+
+id: (dummy-74595)
+Scores: (#C #S #D #I) 0 0 0 3
+REF:  **** ***** **** 
+HYP:  HIAU TSING HONG 
+Eval: I    I     I    
+
+id: (dummy-769795)
+Scores: (#C #S #D #I) 0 0 0 11
+REF:  **** ** **** ** *** *** *** ***** **** ***** ** 
+HYP:  GONG BA LANG KU HIO BEH KHI THIAN TANG TSHIU AH 
+Eval: I    I  I    I  I   I   I   I     I    I     I  
+
+id: (dummy-778273)
+Scores: (#C #S #D #I) 0 0 0 4
+REF:  *** *** **** * 
+HYP:  GUA MUA HONG A 
+Eval: I   I   I    I 
+
+id: (dummy-780458)
+Scores: (#C #S #D #I) 0 0 0 7
+REF:  * *** ** *** ****** *** ***** 
+HYP:  S SAU LI TSE KHIANG TSE KHONG 
+Eval: I I   I  I   I      I   I     
+
+id: (dummy-782321)
+Scores: (#C #S #D #I) 0 0 0 4
+REF:  **** * ***** **** 
+HYP:  KOOK M TSIAH LIOK 
+Eval: I    I I     I    
+
+id: (dummy-786664)
+Scores: (#C #S #D #I) 0 0 0 29
+REF:  *** *** *** *** *** **** **** *** **** ** ** ** ***** ***** ** **** *** * **** **** **** **** *** *** *** * ***** ****** *** 
+HYP:  SIM NIU SIN NIU SUI KANG KANG THO TIEH HO HO BO PUANN KHANG SI LONG PUE A PHAN KUAN KUAN KIAN SUN TAI TAI E TIONG TSIONG UAN 
+Eval: I   I   I   I   I   I    I    I   I    I  I  I  I     I     I  I    I   I I    I    I    I    I   I   I   I I     I      I   
+
+id: (dummy-787147)
+Scores: (#C #S #D #I) 0 0 0 12
+REF:  ** **** ** * **** * *** **** *** *** *** *** 
+HYP:  AU TSIT LI A SIAK U GUA SIAN TSE KAU KIN HAI 
+Eval: I  I    I  I I    I I   I    I   I   I   I   
+
+id: (dummy-790719)
+Scores: (#C #S #D #I) 0 0 0 12
+REF:  *** ** *** *** *** * ** *** **** **** ***** **** 
+HYP:  TAK KE TAI KAH LAU E AI TIE KING THAI TSHIN TSHE 
+Eval: I   I  I   I   I   I I  I   I    I    I     I    
+
+id: (dummy-798113)
+Scores: (#C #S #D #I) 0 0 0 10
+REF:  *** **** ** ***** **** *** **** *** ** *** 
+HYP:  TAU KING AN TSHUE TIAH KAH TSIT BIN UI ANG 
+Eval: I   I    I  I     I    I   I    I   I  I   
+
+id: (dummy-812728)
+Scores: (#C #S #D #I) 0 0 0 15
+REF:  **** **** * * ** *** ** ** * ** ***** **** ** *** *** 
+HYP:  LIAN NONG E E TI KHA SI SI E HU KIANN TSIT BE KOO SIA 
+Eval: I    I    I I I  I   I  I  I I  I     I    I  I   I   
+
+id: (dummy-813700)
+Scores: (#C #S #D #I) 0 0 0 5
+REF:  ** *** ***** *** *** 
+HYP:  SI SIT KIANG POO SOO 
+Eval: I  I   I     I   I   
+
+id: (dummy-824990)
+Scores: (#C #S #D #I) 0 0 0 24
+REF:  **** *** *** *** **** ***** *** *** **** * * **** ***** *** ** *** **** * *** * ** *** **** *** 
+HYP:  TONG TAN SIN THE HUAT TSHUT SIN SIT KONG I I KING SIUNN TAK LI SUA KONG M KOH E MA KOH TSIN SUI 
+Eval: I    I   I   I   I    I     I   I   I    I I I    I     I   I  I   I    I I   I I  I   I    I   
+
+id: (dummy-832352)
+Scores: (#C #S #D #I) 0 0 0 13
+REF:  ** *** ** ***** ** ** * **** **** ** *** **** ** 
+HYP:  BO MNG LU KHONG LI UA I KING TSHI KI HUN SING PO 
+Eval: I  I   I  I     I  I  I I    I    I  I   I    I  
+
+id: (dummy-832705)
+Scores: (#C #S #D #I) 0 0 0 19
+REF:  **** ***** **** *** ** ** ** *** **** ** ** *** ** *** ** ***** * ** *** 
+HYP:  GONG TSING TIOH BUN TE UI KI KIN UANN LI AN GUA KI SIO TO TSHUN E BO KHU 
+Eval: I    I     I    I   I  I  I  I   I    I  I  I   I  I   I  I     I I  I   
+
+id: (dummy-836440)
+Scores: (#C #S #D #I) 0 0 0 11
+REF:  ** ** **** **** ** **** * **** ** ** *** 
+HYP:  GI SI TSIT LONG KI TING E TSAH LU LU LAI 
+Eval: I  I  I    I    I  I    I I    I  I  I   
+
+id: (dummy-843883)
+Scores: (#C #S #D #I) 0 0 0 26
+REF:  ** ****** ** **** ** ***** *** ****** ** **** ** *** *** *** *** **** ** *** ** ** *** *** * ** ** *** 
+HYP:  LI KHUANN BI TSHU OO TSIAH TUA TSHING KE TSIT NA TIE KUI SIA LAI TUAI SI GUA TI LI KAN KAH U TO AU LAH 
+Eval: I  I      I  I    I  I     I   I      I  I    I  I   I   I   I   I    I  I   I  I  I   I   I I  I  I   
+
+id: (dummy-846592)
+Scores: (#C #S #D #I) 0 0 0 8
+REF:  ****** *** *** **** ** ***** **** *** 
+HYP:  TSIANN BUI BEH TSIT AU HUANN KHUN KIU 
+Eval: I      I   I   I    I  I     I    I   
+
+id: (dummy-848314)
+Scores: (#C #S #D #I) 0 0 0 7
+REF:  ** **** *** ***** *** *** ** 
+HYP:  LI TIOH LAI KHONG TUN LOO PA 
+Eval: I  I    I   I     I   I   I  
+
+id: (dummy-857926)
+Scores: (#C #S #D #I) 0 0 0 2
+REF:  ***** *** 
+HYP:  KHANG THE 
+Eval: I     I   
+
+id: (dummy-87235)
+Scores: (#C #S #D #I) 0 0 0 36
+REF:  **** **** *** ** ***** **** ****** *** ** ***** **** ** *** ***** *** ** **** * ** * ** **** ** *** * ** **** *** **** ** ***** * ** * * **** 
+HYP:  SIAU GUAI BEH AI SIONG KUAI PHUING TIO AI TSUAT TSUE TI GUA THIOH MNG TI THUE E GI E AN TING SA SOO A TI KHAU KHO LING KI TSIUN I TI I E KHAN 
+Eval: I    I    I   I  I     I    I      I   I  I     I    I  I   I     I   I  I    I I  I I  I    I  I   I I  I    I   I    I  I     I I  I I I    
+
+id: (dummy-879817)
+Scores: (#C #S #D #I) 0 0 0 13
+REF:  *** ***** **** ****** ***** ** *** * **** ** **** *** *** 
+HYP:  LIN TSHOK PIAN TSHUAN KHIAN NI TEH I SINN KO KHAN GUA LAH 
+Eval: I   I     I    I      I     I  I   I I    I  I    I   I   
+
+id: (dummy-888929)
+Scores: (#C #S #D #I) 0 0 0 5
+REF:  ** ** **** *** *** 
+HYP:  LI AU TSIT KUA KIU 
+Eval: I  I  I    I   I   
+
+id: (dummy-893211)
+Scores: (#C #S #D #I) 0 0 0 18
+REF:  ** *** *** **** * **** *** **** ** *** **** *** * * *** **** **** ** 
+HYP:  MA KOH GUA KUEH A THAU LEH TING SI TAI TANG LAI E I TSO LANG TSIN HO 
+Eval: I  I   I   I    I I    I   I    I  I   I    I   I I I   I    I    I  
+
+id: (dummy-893242)
+Scores: (#C #S #D #I) 0 0 0 6
+REF:  *** *** **** *** *** *** 
+HYP:  TUI TSI TSAI KHO TNG LEH 
+Eval: I   I   I    I   I   I   
+
+id: (dummy-896036)
+Scores: (#C #S #D #I) 0 0 0 17
+REF:  *** *** ***** * * ** ***** * ** **** **** *** *** **** *** ** **** 
+HYP:  TSE THE PHENN A A LI TIANG U SA TSIU TSIU SAI SIK TSUI ONG BO KANG 
+Eval: I   I   I     I I I  I     I I  I    I    I   I   I    I   I  I    
+
+id: (dummy-899566)
+Scores: (#C #S #D #I) 0 0 0 20
+REF:  *** *** *** * ** ** * *** ** *** *** **** *** ** ** **** **** **** *** *** 
+HYP:  HAH NIN PEH A LO HO A LAN LI TSA BOO TIAU HUI SI KO TSAN TIOH PUAN LOH LAI 
+Eval: I   I   I   I I  I  I I   I  I   I   I    I   I  I  I    I    I    I   I   
+
+id: (dummy-91831)
+Scores: (#C #S #D #I) 0 0 0 2
+REF:  **** ****** 
+HYP:  HONG TSIANN 
+Eval: I    I      
+
+id: (dummy-938642)
+Scores: (#C #S #D #I) 0 0 0 35
+REF:  * ** ** **** **** *** *** ** **** * **** **** *** ** *** * **** **** ** *** ***** **** ****** **** ** **** ***** *** * **** ** **** ** *** **** 
+HYP:  M NA SI LONG HIAN TAI TAI GI LANG O THAH LIAN KHE LA KAI E LIAN TSIA MA HUE HAINN TSIT TSIONG IONG JI HUAT SIUNN KUE I GUAT SI TSAI PU KHO TSHU 
+Eval: I I  I  I    I    I   I   I  I    I I    I    I   I  I   I I    I    I  I   I     I    I      I    I  I    I     I   I I    I  I    I  I   I    
+
+id: (dummy-93897)
+Scores: (#C #S #D #I) 0 0 0 19
+REF:  ** ** *** *** ***** ***** ** **** **** **** *** **** *** ***** *** * ****** **** *** 
+HYP:  IN UI HUE TAM TIANN TIANN SU NIAU HUAH LIAU TIN LIAU KUE THING HOO I TSHIAH TIUH TIU 
+Eval: I  I  I   I   I     I     I  I    I    I    I   I    I   I     I   I I      I    I   
+
+id: (dummy-940593)
+Scores: (#C #S #D #I) 0 0 0 12
+REF:  ****** **** *** **** * *** *** ****** *** **** **** ** 
+HYP:  KHUANN TING KAU KANG I TIT HUN TSIANN SIT PONG KONG UE 
+Eval: I      I    I   I    I I   I   I      I   I    I    I  
+
+id: (dummy-943741)
+Scores: (#C #S #D #I) 0 0 0 13
+REF:  **** *** * *** * **** ****** ** ***** *** **** ** **** 
+HYP:  SUAN MAN O LAN I KHAI TSIANG SI TSIUN KAH LANG BE TSIA 
+Eval: I    I   I I   I I    I      I  I     I   I    I  I    
+
+id: (dummy-946043)
+Scores: (#C #S #D #I) 0 0 0 16
+REF:  ** ** *** *** **** *** *** **** *** *** **** ** ** * ** *** 
+HYP:  LI IO KHO KHU KONG KHU LAI KHIU TIU KIU LIAH SU NA I AU LEH 
+Eval: I  I  I   I   I    I   I   I    I   I   I    I  I  I I  I   
+
+id: (dummy-958172)
+Scores: (#C #S #D #I) 0 0 0 14
+REF:  *** ** *** **** *** *** **** ** *** * ***** *** *** *** 
+HYP:  SAN KA THA KIUN IAU KAU TSHI IN GUA U SIANN MIH TIK SIK 
+Eval: I   I  I   I    I   I   I    I  I   I I     I   I   I   
+
+id: (dummy-960855)
+Scores: (#C #S #D #I) 0 0 0 20
+REF:  * **** ** *** *** *** **** * *** *** *** * *** ** ** ** **** * **** **** 
+HYP:  I TONG SI TUT HIT BUE LONG I LOH BEH PAH U THE TI IT NA TANG E TIAN TONG 
+Eval: I I    I  I   I   I   I    I I   I   I   I I   I  I  I  I    I I    I    
+
+id: (dummy-967505)
+Scores: (#C #S #D #I) 0 0 0 18
+REF:  **** *** ** ***** ** ***** *** ** **** * ** ** ** **** *** ** **** *** 
+HYP:  KANG TSA PI TSIUN HA TSHIU KOK BE TSHI O BE TE NI KIAU KAH BO KHIH SUT 
+Eval: I    I   I  I     I  I     I   I  I    I I  I  I  I    I   I  I    I   
+
+id: (dummy-970439)
+Scores: (#C #S #D #I) 0 0 0 37
+REF:  ** ** **** **** ** **** **** * **** ** ***** *** ** ** **** ***** *** **** ** ** ***** ** *** **** *** **** ** *** **** *** *** *** ***** *** ***** **** **** 
+HYP:  NA SI THAU TANG BO TING GUAT E TIOH SI KHONG LOO NA SI KHEH TSIAH PUA TSIO TO SI KHIAM TO TSE SING TAM THAN LO TAN TSAI KHU SIO TSE TIANG THA THONG TIOH TSIU 
+Eval: I  I  I    I    I  I    I    I I    I  I     I   I  I  I    I     I   I    I  I  I     I  I   I    I   I    I  I   I    I   I   I   I     I   I     I    I    
+
+id: (dummy-973167)
+Scores: (#C #S #D #I) 0 0 0 7
+REF:  *** *** **** ***** *** *** ** 
+HYP:  BAK TSU LING LIANG KUE SIU LI 
+Eval: I   I   I    I     I   I   I  
+
+id: (dummy-984098)
+Scores: (#C #S #D #I) 0 0 0 26
+REF:  ** * *** **** ** ***** ***** ** ** *** *** ** **** *** ***** ** **** *** ** ***** ** *** *** *** *** **** 
+HYP:  KO A SIT IANN SI KIONG TSIOH GA UA KUI LOH SI PHOO KAH TSIAU BU TSIT LOH AN TSING LI LAI KHI KEH TAI PONG 
+Eval: I  I I   I    I  I     I     I  I  I   I   I  I    I   I     I  I    I   I  I     I  I   I   I   I   I    
+
+id: (dummy-985779)
+Scores: (#C #S #D #I) 0 0 0 18
+REF:  *** *** *** ** **** ** ***** ** **** * **** *** *** * *** *** ** * 
+HYP:  TSA PAI PHA BU TSIT BE SIUNN LI KANG E KUAN KUI LAI I BEH TSO IN A 
+Eval: I   I   I   I  I    I  I     I  I    I I    I   I   I I   I   I  I 
+
+id: (dummy-994523)
+Scores: (#C #S #D #I) 0 0 0 23
+REF:  * ***** *** *** *** **** **** ** *** * ** *** ** ** ** ***** *** *** **** **** ** ***** *** 
+HYP:  T TIONG THO TAI UAN LIAN IANN SI GUA E SE MIA BO LU AN TSUAN UAN ING HUAN LONG BE THONG KHI 
+Eval: I I     I   I   I   I    I    I  I   I I  I   I  I  I  I     I   I   I    I    I  I     I   
+
+id: (dummy-998804)
+Scores: (#C #S #D #I) 0 0 0 18
+REF:  ** **** **** * *** ** ** **** **** **** *** *** ** *** **** **** * *** 
+HYP:  LI TSAI HUAN E TIT LE HI TSUN TIAN TSIT HUN LOO GA PHI KONG TSIT E HOO 
+Eval: I  I    I    I I   I  I  I    I    I    I   I   I  I   I    I    I I   
+
+
