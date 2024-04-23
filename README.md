@@ -70,7 +70,8 @@ Output: Tailuo Pinyin (according to the standards of the Ministry of Education)
 
 ### Final rank in class
 
-![NYCU-IAlS-DL2024-Taiwanese-ASR Submission](https://github.com/Deep-Learning-NYCU/taiwanese-speech-recognition-using-espnet-toolkit-A122130/assets/166596141/84ebe12f-b6fb-4f74-8a98-82ae1f93ce47)
-![Classroom Competition](https://github.com/Deep-Learning-NYCU/taiwanese-speech-recognition-using-espnet-toolkit-A122130/assets/166596141/92fa6c84-42d1-4207-b1c9-46db94c8570d)
+![image](https://github.com/Liavan0122/112-NYCU-539100-Deep-Learning/assets/167183282/7aeaa4c9-2cf9-42dd-bde1-7f7c6e62a29b)
+![image](https://github.com/Liavan0122/112-NYCU-539100-Deep-Learning/assets/167183282/facd874c-351b-4e0a-aee1-067b8bf1cbb2)
+
 (Kaggle information)
 
