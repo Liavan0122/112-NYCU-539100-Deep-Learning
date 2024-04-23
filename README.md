@@ -1,7 +1,6 @@
 # DL ESPnet Homework1
 
 ## Environmental requirements
-
 ### Software Requirements
 
 * Python 3.6.1+
@@ -19,6 +18,7 @@ Cudnn = 8.9.2.6
 NCCL = 2.21.5.1
 ```
 
+
 ## Installation ESPnet
 
 I mainly refer to the tutorial in these website
@@ -28,6 +28,7 @@ CMU Usage of ESPnet (ASR as an example) [Material](https://colab.research.google
 
 [Espnet Github](https://github.com/espnet/espnet)
  
+
 
 ## Run a Recipe
 
@@ -45,6 +46,7 @@ CMU Usage of ESPnet (ASR as an example) [Material](https://colab.research.google
 %cd /content/espnet/egs2/an4/asr1
 !./run.sh
 ```
+
 
 
 ## Homework Result
