@@ -23,3 +23,23 @@ egs/
 			-run.sh			# Entry point
 		tts1/
 ```
+
+## Explaination
+If you create a new directory in egs2/ for the new dataset. This will automatically create several other files and directories.
+```
+asr.sh    cmd.sh    conf  db.sh  local  path.sh  pyscripts    scripts  steps    utils
+```
+Besides, you can also see the following different files in the different folders: 
+```
+%/conf/*.yaml               ## For the model configurations
+```
+```
+%/local/data_prep.py        ##
+%/local/data.sh
+```
+```
+%/downloads/*.              ##
+```
+```
+%run.sh                     ##
+```
