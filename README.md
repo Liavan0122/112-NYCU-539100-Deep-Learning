@@ -29,9 +29,9 @@ CMU Usage of ESPnet (ASR as an example) [Material](https://colab.research.google
 [Espnet Github](https://github.com/espnet/espnet)
  
 
-## 執行方式
+## Run a Recipe
 
-**環境建置在anaconda虛擬環境**  
+**The environment is built in anaconda and ESPnet virtual environment**  
 ```
 !conda activate espnet
 ```
@@ -46,21 +46,18 @@ CMU Usage of ESPnet (ASR as an example) [Material](https://colab.research.google
 !./run.sh
 ```
 
-## 可能有啥
 
-
-
-## 作業結果
+## Homework Result
 ### Data Discription
-單人女聲聲音（高雄腔）
-輸入：台語語音音檔（格式：wav檔, 22 kHz, mono, 32 bits）
-輸出：台羅拼音（依教育部標準）
+Single female voice (Kaohsiung accent)
+Input: Taiwanese voice file (format: wav file, 22 kHz, mono, 32 bits)
+Output: Tailuo Pinyin (according to the standards of the Ministry of Education)
 
 ### Evaluation 評分標準
-* 只看'台羅拼音'，而且'不管音調'，辨認輸出範例如下：
+* Only compare the context 'TaiLuo Pinyin', and 'regardless of tone', the recognition output example is as follows:
 "li be e mih kiann lan lan san san long be tsiau tsng"
-* 評分標準使用 word error rate (WER）
-* 'Word-Error Rate (WER)'. WER= (D + S + I) / N × 100% （整個詞的字元都要正確，才算對）。
+* The scoring criteria uses word error rate (WER)
+* 'Word-Error Rate (WER)'. WER= (D + S + I) / N × 100% (the characters of the entire word must be correct to be considered correct).
 
 ### WER Talbe
 | Model  | Snt | Wrd  | Corr | Sub | Del  | Ins | Err | S.Err  |
