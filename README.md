@@ -69,28 +69,28 @@ Besides, you can also see the following different files in the different folders
 
 
 
-## 我的結果
+## 作業結果
+### Data Discription
+單人女聲聲音（高雄腔）
+輸入：台語語音音檔（格式：wav檔, 22 kHz, mono, 32 bits）
+輸出：台羅拼音（依教育部標準）
 
+### Evaluation 評分標準
+* 只看'台羅拼音'，而且'不管音調'，辨認輸出範例如下：
+"li be e mih kiann lan lan san san long be tsiau tsng"
+* 評分標準使用 word error rate (WER）
+* 'Word-Error Rate (WER)'. WER= (D + S + I) / N × 100% （整個詞的字元都要正確，才算對）。
 
-*This text will be italic*  
-_This will also be italic_
+### WER Talbe
+| Model  | Snt | Wrd  | Corr | Sub | Del  | Ins | Err | S.Err  |
+| ------------- |:-------------:| ------------- |:-------------:|:-------------:| ------------- |:-------------:| ------------- |:-------------:|
+| asr_train_asr_whisper_small_lora_finetune_**v2**_raw_zh_whisper_multilingual_sp   | 200     | 3374      | 84.9     | 14.1      | 1.0     | 1.5      | 16.5     | 69.5      |
+| asr_train_asr_whisper_small_lora_finetune_**v3**_raw_zh_whisper_multilingual_sp   | 200     | 3374      | 83.7     | 15.2      | 1.1     | 1.5      | 17.8     | 72.5      |
+| asr_train_asr_conformer_xlsr_raw_zh_bpe150_sp    | 200     | 3374      | 70.2     | 26.4      | 3.4     | 2.3      | 32.1     | 89.0      |
 
-**This text will be bold**  
-__This will also be bold__
+### Final rank in class
 
-_You **can** combine them_
+![NYCU-IAlS-DL2024-Taiwanese-ASR Submission](https://github.com/Deep-Learning-NYCU/taiwanese-speech-recognition-using-espnet-toolkit-A122130/assets/166596141/84ebe12f-b6fb-4f74-8a98-82ae1f93ce47)
+![Classroom Competition](https://github.com/Deep-Learning-NYCU/taiwanese-speech-recognition-using-espnet-toolkit-A122130/assets/166596141/92fa6c84-42d1-4207-b1c9-46db94c8570d)
+(Kaggle information)
 
-### Unordered
-
-* Item 1
-* Item 2
-* Item 2a
-* Item 2b
-
-### Ordered
-
-1. Item 1
-2. Item 2
-3. Item 3
-    1. Item 3a
-    2. Item 3b
