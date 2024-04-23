@@ -55,7 +55,7 @@ Single female voice (Kaohsiung accent)
 Input: Taiwanese voice file (format: wav file, 22 kHz, mono, 32 bits)
 Output: Tailuo Pinyin (according to the standards of the Ministry of Education)
 
-### Evaluation 評分標準
+### Evaluation 
 * Only compare the context 'TaiLuo Pinyin', and 'regardless of tone', the recognition output example is as follows:
 "li be e mih kiann lan lan san san long be tsiau tsng"
 * The scoring criteria uses word error rate (WER)
