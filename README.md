@@ -1,6 +1,6 @@
-# ESPNET DL
+# DL ESPnet Homework1
 
-## 環境建設要求
+## Environmental requirements
 
 ### Software Requirements
 
@@ -10,7 +10,7 @@
 * Cudnn 6+, 7+
 * NCCL 2.0+ (for the use of multi-GPUs)
 
-### 我的建置
+### My Environmental
 ```
 Python = 3.12.2;
 gcc = 11.4;
@@ -19,34 +19,15 @@ Cudnn = 8.9.2.6
 NCCL = 2.21.5.1
 ```
 
-## 安裝教學
+## Installation ESPnet
 
-參考 [Espnet 官方文件](https://espnet.github.io/espnet/installation.html#step-2-installation-espnet).
+I mainly refer to the tutorial in these website
+[Espnet official document](https://espnet.github.io/espnet/installation.html#step-2-installation-espnet).
 
-或是github上的Tutorial at CMU Usage of ESPnet (ASR as an example) [Material](https://colab.research.google.com/github/espnet/notebook/blob/master/espnet2_recipe_tutorial_CMU_11751_18781_Fall2022.ipynb)
+CMU Usage of ESPnet (ASR as an example) [Material](https://colab.research.google.com/github/espnet/notebook/blob/master/espnet2_recipe_tutorial_CMU_11751_18781_Fall2022.ipynb)
 
 [Espnet Github](https://github.com/espnet/espnet)
  
-
-## 資料目錄
-If you create a new directory in egs2/ for the new dataset. This will automatically create several other files and directories.
-```
-asr.sh    cmd.sh    conf  db.sh  local  path.sh  pyscripts    scripts  steps    utils
-```
-Besides, you can also see the following different files in the different folders: 
-```
-%/conf/*.yaml               ## For the model configurations
-```
-```
-%/local/data_prep.py        ##
-%/local/data.sh
-```
-```
-%/downloads/*.              ##
-```
-```
-%run.sh                     ##
-```
 
 ## 執行方式
 
