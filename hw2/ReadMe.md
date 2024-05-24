@@ -65,6 +65,7 @@ requirements.txt
 setup.py
 ```
 
+
 ## Getting Started
 
 ### Data Preparation
@@ -106,7 +107,13 @@ See [examples/README.md](https://github.com/hiyouga/LLaMA-Factory/blob/main/exam
 ***
 
 
+
 ## Result 
 ![image](https://github.com/Liavan0122/112-NYCU-539100-Deep-Learning/assets/167183282/62cca38a-0675-4910-a0f3-afb90e07e755)
 
+
+## Comparison Table 
+It is a Model Comparison on this task, which is compiled from top rank student.
+![image](https://github.com/Liavan0122/112-NYCU-539100-Deep-Learning/assets/167183282/524bf7a2-25b2-49e8-93d7-3982130ecfb1)
+[detail information](https://hackmd.io/nEMrtccOT4CJxW9Z9sZoFg)
 
