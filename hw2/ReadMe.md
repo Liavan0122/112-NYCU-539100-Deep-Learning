@@ -95,9 +95,16 @@ See [examples/README.md](https://github.com/hiyouga/LLaMA-Factory/blob/main/exam
 
 ---
 2.
+這是我的作法
+```
+(trainning section) 將command config.txt中的內容打在command line後完成訓練
+(inference section) 在command line輸入 CUDA_VISIBLE_DEVICES=0 llamafactory-cli api examples/inference/your finetune model name.yaml 會在本地伺服器開啟提供服務的api
+                    ，用額外的py程式執行(例如extra_tool中的inference.py)傳遞資料去訪問api並得到request
+(merging section)   我並沒有輸出模型
+```
+
 ***
-3.
-- - -
+
 
 ## Result 
 ![image](https://github.com/Liavan0122/112-NYCU-539100-Deep-Learning/assets/167183282/62cca38a-0675-4910-a0f3-afb90e07e755)
