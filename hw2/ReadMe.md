@@ -98,3 +98,8 @@ See [examples/README.md](https://github.com/hiyouga/LLaMA-Factory/blob/main/exam
 ***
 3.
 - - -
+
+## Result 
+![image](https://github.com/Liavan0122/112-NYCU-539100-Deep-Learning/assets/167183282/62cca38a-0675-4910-a0f3-afb90e07e755)
+
+
